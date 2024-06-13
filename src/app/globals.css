@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+ul.menu > li {
+  padding: 5px 16px;
+}
+ul.menu > li:focus-visible {
+  border: none !important;
+}
+ul.menu > li > .menu-link {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 130%;
+  color: #143354;
+  transition: 500ms ease-in-out;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 0;
+  border-bottom: 2px solid transparent;
+}
+ul.menu > li > .menu-link:hover,
+ul.menu > li > .menu-link.active {
+  border-bottom: 2px solid #2d8fcc;
+  color: #2d8fcc;
+}
+.btn-primary {
+  font-size: 16px;
+  line-height: 130%;
+  color: #fff;
+  background-color: #2d8fcc;
+  padding: 10px 24px;
+  transition-duration: 500ms;
+}
+.btn-primary:hover {
+  font-size: 16px;
+  line-height: 130%;
+  color: #2d8fcc;
+  background-color: transparent;
+  border: 1px solid #2d8fcc;
+  padding: 10px 24px;
+}
+.heroBackground {
+  background: url("../../public/images/heroBG.jpg") no-repeat;
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  z-index: -1;
+}
+.tabs .tab {
+  border-radius: 80px;
+  transition-duration: 1s;
+  border-color: #fff;
+  background: transparent;
+}
+.tabs .tab.react-tabs__tab--selected {
+  background: #2d8fcc;
+  border-color: #2d8fcc;
+  color: white;
+  transition: 0.8s;
+}
+
+.investorRegistration {
+  background: url("../../public/images/investor.png") no-repeat;
+  background-size: center;
+}
+.breadcrumb {
+  background: linear-gradient(
+    273deg,
+    #143354 0%,
+    rgba(45, 143, 204, 0.96) 100%
+  );
+}
+.applicationBG {
+  position: relative;
+  background: linear-gradient(rgba(20, 51, 84, 0.6), rgba(20, 51, 84, 0.6)),
+    url("../../public/images/applicationBG.png") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.clipping-path-red {
+  clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%, 0% 50%);
+}
+.clipping-path-green {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 100%, 0% 100%, 10% 50%);
+}
+@media screen and (max-width: 1023px) {
+  .clipping-path-red, .clipping-path-green {
+    
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
