@@ -60,7 +60,7 @@ const EmploymentVisa = () => {
                   setActiveIndex(1);
                 }}
                 description={
-                  "Our goal is to make the process of studying abroad smooth and rewarding. Every individual has their own unique path and we provide support and mentorship based on their specific interests or concerns. Are you thinking of studying abroad? Get ready to embark on a transformative academic adventure with the best study abroad mentors from TurnAbroad by your side."
+                  "Aiming to transform borders from being barriers in growth to gateways to success, we specialize in guiding individuals towards fulfilling international careers. With expertise in various career  fields, internal resources, and unwavering commitment, we empower you to navigate the complexities of international employment and landing your dream job. Explore, experience, and excel in your global career ambitions with TurnAbroad."
                 }
                 linkTitle={"Learn More"}
                 href={"/work-abroad?query=skilled"}
@@ -74,7 +74,7 @@ const EmploymentVisa = () => {
                   setActiveIndex(2);
                 }}
                 description={
-                  "Our goal is to make the process of studying abroad smooth and rewarding. Every individual has their own unique path and we provide support and mentorship based on their specific interests or concerns. Are you thinking of studying abroad? Get ready to embark on a transformative academic adventure with the best study abroad mentors from TurnAbroad by your side."
+                  "Aiming to transform borders from being barriers in growth to gateways to success, we specialize in guiding individuals towards fulfilling international careers. With expertise in various career  fields, internal resources, and unwavering commitment, we empower you to navigate the complexities of international employment and landing your dream job. Explore, experience, and excel in your global career ambitions with TurnAbroad."
                 }
                 linkTitle={"Learn More"}
                 href={"/work-abroad?query=unskilled"}
@@ -88,7 +88,7 @@ const EmploymentVisa = () => {
                   setActiveIndex(0);
                 }}
                 description={
-                  "Our goal is to make the process of studying abroad smooth and rewarding. Every individual has their own unique path and we provide support and mentorship based on their specific interests or concerns. Are you thinking of studying abroad? Get ready to embark on a transformative academic adventure with the best study abroad mentors from TurnAbroad by your side."
+                  "Aiming to transform borders from being barriers in growth to gateways to success, we specialize in guiding individuals towards fulfilling international careers. With expertise in various career  fields, internal resources, and unwavering commitment, we empower you to navigate the complexities of international employment and landing your dream job. Explore, experience, and excel in your global career ambitions with TurnAbroad."
                 }
                 linkTitle={"Learn More"}
                 href={"/work-abroad?query=independentwork"}

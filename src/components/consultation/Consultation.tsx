@@ -6,7 +6,8 @@ const Consultation = () => {
       <div className="container">
         <div className="w-full lg:max-w-screen-md h-fit mx-auto">
           <h2 className="text-center text-3xl md:text-[40px] font-extrabold leading-normal mb-6 lg:mb-10">
-            Book your free consultation with Certified Counsellors
+            Book your <span className="text-primary"> Free</span> consultation
+            with <span className="text-primary"> TurnAbroad</span>
           </h2>
           <div className=" flex flex-col w-full gap-6">
             <div className="flex  w-full gap-6">
@@ -61,10 +62,10 @@ const Consultation = () => {
               >
                 I agree with the{" "}
                 <a
-                  href="#"
+                  href="/terms-conditions"
                   className="text-primary hover:border-b  border-primary duration-500"
                 >
-                  terms and conditions
+                  Terms and Conditions
                 </a>
               </label>
             </div>

@@ -48,7 +48,7 @@ const Header = () => {
             pathName == "/about" && "active"
           }`}
         >
-          About
+          About Us
         </Link>
       </li>
       {/* <li className="">
@@ -68,7 +68,7 @@ const Header = () => {
             pathName == "/service" && "active"
           }`}
         >
-          Service
+          Services
         </Link>
       </li>
       <li className="">
@@ -116,7 +116,7 @@ const Header = () => {
 
   return (
     <header className="relative">
-      <div className="header-top bg-white py-[15px]">
+      {/* <div className="header-top bg-white py-[15px]">
         <div className="container">
           <div className="flex items-center justify-between gap-2 lg:gap-6 flex-wrap">
             <Link
@@ -133,7 +133,7 @@ const Header = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* <div className="header-bottom  bg-[#F3F9FF] border-t border-b  w-full z-50 sticky top-0"> */}
       <div
         className={`header-bottom  bg-[#F3F9FF] border-t border-b top-0  w-full z-50 ${

@@ -23,14 +23,14 @@ const StudyUSA = () => {
             Our goal is to make the process of studying abroad smooth and
             rewarding.
           </h2>
-          <p className="text-justify">
+          {/* <p className="text-justify">
             Every individual has their own unique path and we provide support
             and mentorship based on their specific interests or concerns. Are
             you thinking of studying abroad? Get ready to embark on a
             transformative academic adventure with the best study abroad mentors
-            from TurnAbroad by your side.
+            from TurnAbroad by your side. */}
             {/* <Link href={"#"} className="btn btn-primary">Apply Now <FaArrowRight/></Link> */}
-          </p>
+          {/* </p> */}
         </div>
         <USA />
       </div>

@@ -61,20 +61,20 @@ const Slider = () => {
           <MdOutlineArrowRight />
         </button>
       </div> */}
-      <div className="swiper-nav-btns hidden  lg:inline-flex justify-between items-center gap-6 absolute w-full z-[999] top-1/2 -translate-y-2/4 px-4 lg:-px-[2%] xl:-px-[3%] xxl:px-[10%]">
+      {/* <div className="swiper-nav-btns hidden  lg:inline-flex justify-between items-center gap-6 absolute w-full z-[999] top-1/2 -translate-y-2/4 px-4 lg:-px-[2%] xl:-px-[3%] xxl:px-[10%]">
         <button
           onClick={() => slidePrev()}
           className="text-xl md:text-2xl text-black bg-slate-300 rounded-full p-2"
         >
-          <MdOutlineArrowLeft size={24}/>
+          <MdOutlineArrowLeft size={24} />
         </button>
         <button
           onClick={() => slideNext()}
           className="text-xl md:text-2xl text-black bg-slate-300 rounded-full p-2"
         >
-          <MdOutlineArrowRight size={24}/>
+          <MdOutlineArrowRight size={24} />
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };

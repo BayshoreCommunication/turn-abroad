@@ -35,7 +35,7 @@ const StudyAbroadSection = () => {
           <Tabs className="pt-6 lg:pt-8 xl:pt-10" selectedIndex={activeIndex}>
             <div className="flex flex-wrap gap-4 items-center justify-between mb-4 lg:mb-8">
               <h1 className="text-center text-3xl md:text-[40px] font-extrabold leading-normal">
-                Easy study abroad
+                Study  <span className="text-primary">Abroad</span>
               </h1>
               <TabList
                 role="tablist"

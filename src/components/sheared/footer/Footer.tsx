@@ -2,13 +2,7 @@ import Image from "next/image";
 import React from "react";
 import footerLogo from "/public/images/footer-logo.png";
 import QRCode from "/public/images/qrcode.png";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaLinkedin,
-  FaTwitter,
-  FaYoutube,
-} from "react-icons/fa6";
+import { FaFacebook, FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa6";
 import Link from "next/link";
 
 const Footer = () => {
@@ -24,9 +18,9 @@ const Footer = () => {
               name="email"
               id="email"
               className="input w-full max-w-[400px] lg:max-w-[300px] focus:outline-none bg-[#EAEAEA] border-none mb-4"
-              placeholder="enter your email"
+              placeholder="Enter your email"
             />
-            <button className="btn btn-primary">Get a Proposal</button>
+            <button className="btn btn-primary">Free Consultation</button>
           </aside>
           <nav>
             <h6 className="footer-title text-xl font-bold text-[#241836] opacity-100 normal-case">
@@ -35,9 +29,9 @@ const Footer = () => {
             <Link href="/about" className="link link-hover">
               About Us
             </Link>
-            {/* <Link href="/student-packages" className="link link-hover">
-              Student Packages
-            </Link> */}
+            <Link href="/invest-abroad" className="link link-hover">
+              Invest Abroad
+            </Link>
             <Link href="/study-abroad" className="link link-hover">
               Study Abroad
             </Link>
@@ -63,23 +57,26 @@ const Footer = () => {
             <Image
               src={QRCode}
               alt="qr code"
-              className="w-full max-w-24 rounded md:mx-auto"
+              className="w-full max-w-32 rounded md:mx-auto p-4  bg-white"
             />
             <div className="flex gap-5 my-4 md:mx-auto">
-              <Link href={"#"}>
+              <Link
+                href="https://www.facebook.com/profile.php?id=61554475437811"
+                target="_blank"
+              >
                 <FaFacebook className="text-2xl hover:text-primary duration-500" />
               </Link>
-              <Link href={"#"}>
+              <Link
+                href="https://www.instagram.com/turnabroadbd/"
+                target="_blank"
+              >
                 <FaInstagram className="text-2xl hover:text-primary duration-500" />
               </Link>
-              <Link href={"#"}>
+              <Link href="https://www.youtube.com/@TurnAbroad" target="_blank">
                 <FaYoutube className="text-2xl hover:text-primary duration-500" />
               </Link>
-              <Link href={"#"}>
-                <FaTwitter className="text-2xl hover:text-primary duration-500" />
-              </Link>
-              <Link href={"#"}>
-                <FaLinkedin className="text-2xl hover:text-primary duration-500" />
+              <Link href="https://www.tiktok.com/@turnabroad" target="_blank">
+                <FaTiktok className="text-2xl hover:text-primary duration-500" />
               </Link>
             </div>
             <p className="md:mx-auto">

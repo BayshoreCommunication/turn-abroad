@@ -8,19 +8,19 @@ const FreeConsultation = () => {
       <div className="container">
         <div className="hero-content flex-col lg:flex-row gap-6 lg:gap-12 xl:gap-16 items-center p-0">
           <Motion effect="fade-right" duration="1500">
-            <div className="lg:max-w-xl w-full">
+            <div className="lg:max-w-5xl w-full text-center">
               <h1 className="text-2xl lg:text-4xl font-extrabold mb-4 text-[#434242]">
                 You Can Get A Free Consultation
               </h1>
-              <p className="mb-3 font-semibold text-xl text-justify">
+              <p className="mb-3 font-semibold text-xl text-center">
                 Using our interactive simulator, you can find out your options
                 of moving abroad. We offer a diverse database of mentorship
                 programs that will prepare you to be able to succeed in your
                 journey abroad.
               </p>
-              <div className="flex gap-4">
+              <div className="flex gap-4 justify-center">
                 <Link href={"/consultation"} className="btn btn-primary mt-6">
-                  Free Consultation
+                  Book Now
                 </Link>
                 {/* <Link href={"#"} className="btn btn-outline hover:border-primary hover:text-primary duration-500 mt-6">
                 Free Consultation
@@ -28,7 +28,7 @@ const FreeConsultation = () => {
               </div>
             </div>
           </Motion>
-          <Motion effect="fade-left" duration="1500">
+          {/* <Motion effect="fade-left" duration="1500">
             <div>
               <iframe
                 className="w-[325px]  h-[190px] md:w-[700px]  md:h-[390px] lg:w-[470px] lg:h-[264px]  rounded-2xl overflow-hidden"
@@ -38,7 +38,7 @@ const FreeConsultation = () => {
                 allowFullScreen
               ></iframe>
             </div>
-          </Motion>
+          </Motion> */}
         </div>
       </div>
     </section>

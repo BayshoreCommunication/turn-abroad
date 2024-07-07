@@ -19,7 +19,7 @@ const ServiceSection = () => {
       },
       title: "Career Counseling",
       paragraph:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting",
+        "We offer comprehensive services including resume building, interview preparation, and career coaching.",
       read_more_link: "#",
     },
     {
@@ -31,7 +31,7 @@ const ServiceSection = () => {
       },
       title: "Visa Guidance",
       paragraph:
-        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "We provide expert visa guidance services, including personalized consultations and up-to-date information to help you navigate complex visa requirements with ease.",
       read_more_link: "#",
     },
     {
@@ -43,7 +43,7 @@ const ServiceSection = () => {
       },
       title: "Financial Planning",
       paragraph:
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
+        "We offer tailored financial planning services, such as comprehensive strategies, including investment management, retirement planning, and debt reduction, to ensure your financial security and peace of mind.",
       read_more_link: "#",
     },
     {
@@ -55,7 +55,7 @@ const ServiceSection = () => {
       },
       title: "Application Assistance",
       paragraph:
-        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "We provide comprehensive assistance with immigration applications. Our experienced consultants offer personalized support and up-to-date guidance to help you successfully navigate the complexities of immigration requirements.",
       read_more_link: "#",
     },
     {
@@ -67,7 +67,7 @@ const ServiceSection = () => {
       },
       title: "Document Preparation",
       paragraph:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "We provide meticulous document preparation to streamline your immigration/application process. Our dedicated team ensures all paperwork is accurately completed and submitted, giving you peace of mind and enhancing your chances of visa approval.",
       read_more_link: "#",
     },
     {
@@ -79,7 +79,7 @@ const ServiceSection = () => {
       },
       title: "Health Insurance",
       paragraph:
-        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "We assist you in selecting the best health insurance plan to meet your unique needs and budget. Our experts provide personalized consultations and up-to-date information to ensure you make informed decisions for your health coverage while you are moving abroad.",
       read_more_link: "#",
     },
   ];
@@ -91,7 +91,7 @@ const ServiceSection = () => {
       <Motion effect="fade-up" duration="2000">
         <div className="container">
           <h1 className="text-center text-3xl md:text-[40px] font-extrabold leading-normal  mb-4 md:mb-8">
-            Easy to go abroad
+            Services We Provide 
           </h1>
           <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-16">
             {services.map((serviceCard) => (

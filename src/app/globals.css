@@ -69,6 +69,14 @@ ul.menu > li > .menu-link.active {
   background: url("../../public/images/investor.png") no-repeat;
   background-size: center;
 }
+.studentRegistration {
+  background: url("../../public/images/student.png") no-repeat;
+  background-size: center;
+}
+.employeeRegistration {
+  background: url("../../public/images/employee-reg.png") no-repeat;
+  background-size: center;
+}
 .breadcrumb {
   background: linear-gradient(
     273deg,
@@ -91,8 +99,8 @@ ul.menu > li > .menu-link.active {
   clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 100%, 0% 100%, 10% 50%);
 }
 @media screen and (max-width: 1023px) {
-  .clipping-path-red, .clipping-path-green {
-    
+  .clipping-path-red,
+  .clipping-path-green {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
 }

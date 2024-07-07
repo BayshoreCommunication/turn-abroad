@@ -4,7 +4,7 @@ import canadaFlag from "/public/images/studentPage/canadaFlag.png";
 import { FaHome, FaUniversity } from "react-icons/fa";
 import { FaBook, FaStar } from "react-icons/fa6";
 import { MdOutlineWorkHistory } from "react-icons/md";
-import newYork from "/public/images/studentPage/newYork.png";
+// import newYork from "/public/images/studentPage/newYork.png";
 import Motion from "@src/components/motion/Motion";
 
 const Canada = () => {
@@ -21,7 +21,7 @@ const Canada = () => {
         </Motion>
         <div className="">
           <Motion effect="fade-up" easing="ease-in-out" duration="2000">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:grid-cols-2 gap-6 mb-6 md:mb-10 lg:mb-16">
+            <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 md:grid-cols-2 md:gap-6 mb-6 md:mb-10 lg:mb-16">
               <div className="flex items-center gap-4">
                 <FaUniversity className="text-6xl p-3 bg-[#427CEE] rounded text-white" />
                 <div className="">
@@ -75,9 +75,10 @@ const Canada = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <div className="flex items-center gap-4">
                   <Image
-                    src={newYork}
+                    src="/images/study-abroad/toronto.png"
                     alt="New York"
                     width={70}
+                    height={70}
                     className="rounded overflow-hidden"
                   />
                   <div>
@@ -91,9 +92,10 @@ const Canada = () => {
 
                 <div className="flex items-center gap-4">
                   <Image
-                    src={newYork}
+                    src="/images/study-abroad/vancouver.png"
                     alt="New York"
                     width={70}
+                    height={70}
                     className="rounded overflow-hidden"
                   />
                   <div>
@@ -106,9 +108,10 @@ const Canada = () => {
                 </div>
                 <div className="flex items-center gap-4">
                   <Image
-                    src={newYork}
+                    src="/images/study-abroad/montreal.png"
                     alt="New York"
                     width={70}
+                    height={70}
                     className="rounded overflow-hidden"
                   />
                   <div>
@@ -121,9 +124,10 @@ const Canada = () => {
                 </div>
                 <div className="flex items-center gap-4">
                   <Image
-                    src={newYork}
+                    src="/images/study-abroad/ottawa.png"
                     alt="New York"
                     width={70}
+                    height={70}
                     className="rounded overflow-hidden"
                   />
                   <div>

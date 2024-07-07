@@ -26,14 +26,14 @@ const Registration = () => {
               linkTitle="Investor Registration"
             />
             <RegistrationCard
-              bgImage="investorRegistration"
+              bgImage="studentRegistration"
               title="Student Registration"
               description=""
               href=""
               linkTitle="Student Registration"
             />
             <RegistrationCard
-              bgImage="investorRegistration"
+              bgImage="employeeRegistration"
               title="Employee Registration"
               description=""
               href=""
@@ -42,7 +42,7 @@ const Registration = () => {
           </div>
           <div className="text-center mt-10">
             <Link href={"/about"} className="btn btn-primary">
-              Our vision
+              Our Vision
             </Link>
           </div>
         </div>

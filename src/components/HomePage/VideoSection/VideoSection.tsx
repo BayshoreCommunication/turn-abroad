@@ -9,7 +9,7 @@ const VideoSection = () => {
         <div className="container">
           <div className="text-center xl:max-w-6xl mb-7 mx-auto">
             <h1 className="text-3xl md:text-[40px] font-extrabold leading-normal">
-              What is <span className="text-primary"> Turnabroad</span> ?
+              What is <span className="text-primary"> TurnAbroad</span> ?
             </h1>
           </div>
           <div>

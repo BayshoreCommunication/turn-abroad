@@ -15,7 +15,7 @@ const WhyTurnAbroad = () => {
         <div className="container">
           <div className="text-center xl:max-w-6xl mb-7 mx-auto">
             <h1 className="text-3xl md:text-[40px] font-extrabold leading-normal">
-              Why <span className="text-primary">Turnabroad</span>?
+              Why <span className="text-primary">TurnAbroad</span>?
             </h1>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-20">
@@ -66,7 +66,7 @@ const WhyTurnAbroad = () => {
                 className="rounded-2xl overflow-hidden max-w-xl w-full h-auto mb-4 md:mb-6 hover:scale-105 hover:shadow-lg duration-500"
               ></Image>
               <h2 className="text-2xl md:text-3xl font-semibold text-center text-black">
-                Comfort and Safe
+                Comfortable and Safe
               </h2>
             </div>
             <div className="card p-4 md:p-6 lg:p-8">

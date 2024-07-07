@@ -37,7 +37,7 @@ const Passport = () => {
       .then(
         function (response) {
           console.log("SUCCESS!", response.status, response.text);
-          return toast.success("Success, we have received your email", {
+          return toast.success("We have Recieved your Email", {
             toastId: "workerConsultationFrom",
             position: "top-right",
           });
@@ -87,7 +87,7 @@ const Passport = () => {
                     type="text"
                     name="email"
                     ref={emailRef}
-                    placeholder="Add your email here... "
+                    placeholder="Enter your email "
                     className="input w-full max-w-5xl text-center my-4 md:my-10 focus:outline-none  bg-white h-12 lg:h-16"
                   />
                   <button

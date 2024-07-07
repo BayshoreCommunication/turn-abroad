@@ -3,6 +3,9 @@ import Slider from "./Slider";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import Motion from "../../motion/Motion";
 import Loading from "@src/app/loading";
+import InvestorReviews from "./InvestorReviews";
+import StudentsReviews from "./StudentsReviews";
+import ProfessionalsReviews from "./ProfessionalsReviews";
 
 const Testimonials = () => {
   return (
@@ -41,13 +44,13 @@ const Testimonials = () => {
                 </Tab>
               </TabList>
               <TabPanel>
-                <Slider />
+                <InvestorReviews />
               </TabPanel>
               <TabPanel>
-                <Slider />
+                <StudentsReviews />
               </TabPanel>
               <TabPanel>
-                <Slider />
+                <ProfessionalsReviews />
               </TabPanel>
             </Tabs>
           </div>

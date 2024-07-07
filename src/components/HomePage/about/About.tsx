@@ -13,7 +13,7 @@ const About = () => {
           <div className="text-center xl:max-w-6xl mb-7 mx-auto">
             <h1 className="text-3xl md:text-[40px] font-extrabold leading-normal">
               Want to Know your Options of Moving <br /> Abroad with
-              <span className="text-primary">Turnabroad</span>?
+              <span className="text-primary"> TurnAbroad</span>?
             </h1>
           </div>
 
@@ -25,14 +25,13 @@ const About = () => {
                   Investment Visas
                 </h1>
                 <p className="mb-3 font-semibold text-xl text-justify">
-                  Bringing international business opportunities & strategic
-                  investment solutions, we specialize in empowering businesses
-                  and individuals to explore the vast potential of foreign
-                  markets. With deep expertise, tailored strategies, and
-                  unwavering commitment, we facilitate your journey to expand
-                  investment horizons across borders. TurnAbroad will diversify
-                  your business portfolio and help you navigate the intricate
-                  world of foreign investment.
+                Bringing international business opportunities & strategic 
+                investment solutions, we specialize in empowering you to explore 
+                uncharted foreign markets. Our unwavering dedication, expertise, 
+                and personalized strategies will ensure that you are able to 
+                seize global opportunities effectively and make smart investments. 
+                At TurnAbroad, we will be there every  step of the way to 
+                help you navigate the complex world of foreign investment.
                 </p>
                 <Link href={"/invest-abroad"} className="btn btn-primary mt-6">
                   Learn More

@@ -4,12 +4,11 @@ import usaFlag from "/public/images/studentPage/usaFlag.png";
 import { FaHome, FaUniversity } from "react-icons/fa";
 import { FaBook, FaStar } from "react-icons/fa6";
 import { MdOutlineWorkHistory } from "react-icons/md";
-import newYork from "/public/images/studentPage/newYork.png";
 import Motion from "@src/components/motion/Motion";
 
 const USA = () => {
   return (
-    <section className="pt-10 lg:pt-14 xl:pt-16overflow-hidden">
+    <section className="pt-10 lg:pt-14 xl:pt-16 overflow-hidden">
       <Motion effect="fade-up" easing="ease-in-out" duration="2000">
         <div className="flex items-center gap-4 mb-4 md:mb-8">
           <Image src={usaFlag} alt="usa flag" width={90} />
@@ -20,11 +19,11 @@ const USA = () => {
       </Motion>
       <div className="">
         <Motion effect="fade-up" easing="ease-in-out" duration="2000">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:grid-cols-2 gap-6  mb-6 md:mb-10 lg:mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4   mb-6 md:mb-10 lg:mb-16">
             <div className="flex items-center gap-4">
               <FaUniversity className="text-6xl p-3 bg-[#427CEE] rounded text-white" />
               <div className="">
-                <h4 className="text-xl font-bold text-[#434242] mb-2">
+                <h4 className="text-[19px] font-bold text-[#434242] mb-2 leading-5">
                   Number of Universities
                 </h4>
                 <p className="text-base font-bold text-[#636363]">4000+ </p>
@@ -33,7 +32,7 @@ const USA = () => {
             <div className="flex items-center gap-4">
               <FaBook className="text-6xl p-3 bg-[#4B9FB5] rounded text-white" />
               <div className="">
-                <h4 className="text-xl font-bold text-[#434242] mb-2">
+                <h4 className="text-[19px] font-bold text-[#434242] mb-2 leading-5">
                   Cost of Studying per Year
                 </h4>
                 <p className="text-base font-bold text-[#636363]">
@@ -44,7 +43,7 @@ const USA = () => {
             <div className="flex items-center gap-4">
               <FaHome className="text-6xl p-3 bg-[#C53B43] rounded text-white" />
               <div className="">
-                <h4 className="text-xl font-bold text-[#434242] mb-2">
+                <h4 className="text-[19px] font-bold text-[#434242] mb-2 leading-5">
                   Cost of Living per Year
                 </h4>
                 <p className="text-base font-bold text-[#636363]">
@@ -55,7 +54,7 @@ const USA = () => {
             <div className="flex items-center gap-4">
               <MdOutlineWorkHistory className="text-6xl p-3 bg-[#6944BA] rounded text-white" />
               <div className="">
-                <h4 className="text-xl font-bold text-[#434242] mb-2">
+                <h4 className="text-[19px] font-bold text-[#434242] mb-2 leading-5">
                   Part Time Work Opportunities
                 </h4>
                 <p className="text-base font-bold text-[#636363]">
@@ -74,9 +73,10 @@ const USA = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               <div className="flex items-center gap-4">
                 <Image
-                  src={newYork}
+                  src="/images/study-abroad/new-york.png"
                   alt="New York"
                   width={70}
+                  height={70}
                   className="rounded overflow-hidden"
                 />
                 <div>
@@ -90,9 +90,10 @@ const USA = () => {
 
               <div className="flex items-center gap-4">
                 <Image
-                  src={newYork}
+                  src="/images/study-abroad/san-francisco.png"
                   alt="New York"
                   width={70}
+                  height={70}
                   className="rounded overflow-hidden"
                 />
                 <div>
@@ -105,9 +106,10 @@ const USA = () => {
               </div>
               <div className="flex items-center gap-4">
                 <Image
-                  src={newYork}
+                  src="/images/study-abroad/boston.png"
                   alt="New York"
                   width={70}
+                  height={70}
                   className="rounded overflow-hidden"
                 />
                 <div>
@@ -120,9 +122,10 @@ const USA = () => {
               </div>
               <div className="flex items-center gap-4">
                 <Image
-                  src={newYork}
+                  src="/images/study-abroad/los-angeles.png"
                   alt="New York"
                   width={70}
+                  height={70}
                   className="rounded overflow-hidden"
                 />
                 <div>

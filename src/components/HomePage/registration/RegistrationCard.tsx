@@ -27,11 +27,11 @@ const RegistrationCard: FC<RegistrationProps> = ({
           <h1 className="text-4xl font-black mb-4 pb-4 border-b-2 text-white">
             {title ? title : "Section Title"}
           </h1>
-          <p className=" text-white text-xl mb">
+          {/* <p className=" text-white text-xl mb">
             {description
               ? description
               : "Using our interactive simulator, you can find out your options of moving abroad. We offer a diverse database of mentorship programs that will prepare you to be able to succeed in your journey abroad."}
-          </p>
+          </p> */}
         </div>
         <Link
           href={href ? href : "#"}

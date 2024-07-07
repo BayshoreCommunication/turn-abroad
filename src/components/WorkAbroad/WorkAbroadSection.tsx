@@ -36,7 +36,7 @@ const WorkAbroadSection = () => {
           <Tabs className="pt-10 lg:pt-14 xl:pt-16" selectedIndex={activeIndex}>
             <div className="flex flex-wrap gap-4 items-center justify-between mb-4 lg:mb-8">
               <h1 className="text-center text-3xl md:text-[40px] font-extrabold leading-normal">
-                Easy employment abroad
+                Employment <span className="text-primary">Abroad</span>
               </h1>
               <TabList
                 role="tablist"
@@ -70,7 +70,7 @@ const WorkAbroadSection = () => {
                   className="tab text-sm md:text-base lg:text-lg font-semibold focus:outline-none outline-none outline-0
                    w-full"
                 >
-                  Independent Work
+                  Independent
                 </Tab>
               </TabList>
             </div>

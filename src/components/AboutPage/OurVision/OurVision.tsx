@@ -20,30 +20,32 @@ const OurVision = () => {
               <Motion effect="fade-right" duration="2000">
                 <div className="w-full lg:max-w-4xl">
                   <p className="mb-3 font-normal text-lg text-justify">
-                    Our vision is more than just a mission statement; it&apos;s
-                    a personal commitment born from our own journeys. As
-                    founders who have navigated through the complexities of
-                    immigration ourselves, we deeply believe in the power of
-                    shared experiences. We&apos;ve lived it – the excitement,
-                    the setbacks, and the triumphs. That&apos;s why, at
-                    TurnAbroad, we&apos;re not just a faceless platform;
-                    we&apos;re your companions who&apos;ve walked the same path.
-                    Our vision extends beyond efficiency – it&apos;s about
-                    building a global community where the collective wisdom of
-                    individuals like you makes the entire process smoother and
-                    more peaceful for everyone involved. We&apos;re here to
-                    dissolve the barriers for students, investors, and job
-                    seekers, striving to make moving abroad as hurdle-free as
-                    possible. Your comfort and safety during this transformative
-                    journey are our top priorities, especially for parents
-                    fostering dreams, investors envisioning new beginnings, and
-                    job seekers chasing opportunities worldwide. Moreover, we
-                    see our platform as a bridge connecting diverse cultures,
-                    contributing to a greener and better tomorrow for our
-                    planet. Let&apos;s embark on this personal adventure
-                    together, creating a world where every story matters, and
-                    every journey is an integral part of a shared human
-                    experience.
+                  Our vision is more than just hollow mission statements; what we 
+                  promise is what we will deliver –nothing less. We uptake your 
+                  dreams as our own because at TurnAbroad we are a small family 
+                  in this big, scary world. As former students who have navigated 
+                  the complexities of immigration ourselves, we deeply believe 
+                  in the power of shared experiences. We have lived through it 
+                  - the excitement, the setbacks, and the triumphs. That's why 
+                  at TurnAbroad, we're not just going to be a faceless platform. 
+                  We are going to be your mentors, your companions, and your 
+                  friends who will guide you towards the path of success. As 
+                  your family, we will ensure that you will never have to face 
+                  the difficulties we had to; that you will never feel helpless 
+                  and be alone in your struggles as together, we work to build 
+                  a global community filled with the collective wisdom of 
+                  talented individuals like you.
+                  </p>
+                  <p className="mb-3 font-normal text-lg text-justify">
+                  In short, your visions and goals are our own. They are our 
+                  top priorities! We are going to dissolve the barriers for 
+                  students, investors and job seekers to make your journeys 
+                  overseas hurdle-free and memorable. We are going to bridge 
+                  the gap between people from all walks of life and encourage 
+                  a united front of diverse cultures. So, don't wait any longer! 
+                  Set aside all your fears and embark on this journey with 
+                  us, as you take a comfortable and safe seat during this 
+                  transformative journey to success!
                   </p>
                 </div>
               </Motion>

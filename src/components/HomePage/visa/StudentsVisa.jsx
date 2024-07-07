@@ -60,7 +60,7 @@ const StudentsVisa = () => {
                   setActiveIndex(1);
                 }}
                 description={
-                  "Our goal is to make the process of studying abroad smooth and rewarding. Every individual has their own unique path and we provide support and mentorship based on their specific interests or concerns. Are you thinking of studying abroad? Get ready to embark on a transformative academic adventure with the best study abroad mentors from TurnAbroad by your side."
+                  "Are you thinking of studying abroad? Does the entire process seem extremely overwhelming and you don't know where to start? At TurnAbroad, we believe every individual has their own unique path and thus we provide support and mentorship catered to your specific interests.  Get ready to embark on a transformative academic adventure with the best study abroad mentors from TurnAbroad by your side."
                 }
                 linkTitle={"Learn More"}
                 href={"/study-abroad?query=usa"}
@@ -84,7 +84,7 @@ const StudentsVisa = () => {
                   setActiveIndex(2);
                 }}
                 description={
-                  "Our goal is to make the process of studying abroad smooth and rewarding. Every individual has their own unique path and we provide support and mentorship based on their specific interests or concerns. Are you thinking of studying abroad? Get ready to embark on a transformative academic adventure with the best study abroad mentors from TurnAbroad by your side."
+                  "Are you thinking of studying abroad? Does the entire process seem extremely overwhelming and you don't know where to start? At TurnAbroad, we believe every individual has their own unique path and thus we provide support and mentorship catered to your specific interests.  Get ready to embark on a transformative academic adventure with the best study abroad mentors from TurnAbroad by your side."
                 }
                 linkTitle={"Learn More"}
                 href={"/study-abroad?query=uk"}
@@ -99,7 +99,7 @@ const StudentsVisa = () => {
                   setActiveIndex(0);
                 }}
                 description={
-                  "Our goal is to make the process of studying abroad smooth and rewarding. Every individual has their own unique path and we provide support and mentorship based on their specific interests or concerns. Are you thinking of studying abroad? Get ready to embark on a transformative academic adventure with the best study abroad mentors from TurnAbroad by your side."
+                  "Are you thinking of studying abroad? Does the entire process seem extremely overwhelming and you don't know where to start? At TurnAbroad, we believe every individual has their own unique path and thus we provide support and mentorship catered to your specific interests.  Get ready to embark on a transformative academic adventure with the best study abroad mentors from TurnAbroad by your side."
                 }
                 linkTitle={"Learn More"}
                 href={"/study-abroad?query=ca"}

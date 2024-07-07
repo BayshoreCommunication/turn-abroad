@@ -75,9 +75,10 @@ const UK = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <div className="flex items-center gap-4">
                   <Image
-                    src={newYork}
+                    src="/images/study-abroad/oxford.png"
                     alt="New York"
                     width={70}
+                    height={70}
                     className="rounded overflow-hidden"
                   />
                   <div>
@@ -91,9 +92,10 @@ const UK = () => {
 
                 <div className="flex items-center gap-4">
                   <Image
-                    src={newYork}
+                    src="/images/study-abroad/cambridge.png"
                     alt="New York"
                     width={70}
+                    height={70}
                     className="rounded overflow-hidden"
                   />
                   <div>
@@ -106,9 +108,10 @@ const UK = () => {
                 </div>
                 <div className="flex items-center gap-4">
                   <Image
-                    src={newYork}
+                    src="/images/study-abroad/london.png"
                     alt="New York"
                     width={70}
+                    height={70}
                     className="rounded overflow-hidden"
                   />
                   <div>
@@ -121,9 +124,10 @@ const UK = () => {
                 </div>
                 <div className="flex items-center gap-4">
                   <Image
-                    src={newYork}
+                    src="/images/study-abroad/manchester.png"
                     alt="New York"
                     width={70}
+                    height={70}
                     className="rounded overflow-hidden"
                   />
                   <div>

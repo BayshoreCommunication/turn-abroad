@@ -40,7 +40,7 @@ const WorkerConsultationFrom = () => {
       .then(
         function (response) {
           console.log("SUCCESS!", response.status, response.text);
-          return toast.success("Thanks, message sent successfully", {
+          return toast.success("We recieved your information.", {
             toastId: "workerConsultationFrom",
             position: "top-right",
           });
@@ -59,7 +59,7 @@ const WorkerConsultationFrom = () => {
   return (
     <div className="w-full xl:max-w-lg p-8 h-fit bg-[#F3F9FF] ">
       <h2 className="text-3xl  mb-4 md:mb-8 font-bold text-secondary leading-normal">
-        Book your free consultation with Certified Counsellors
+        Book your free consultation with Certified Counselors
       </h2>
       <form
         action=""
@@ -124,15 +124,15 @@ const WorkerConsultationFrom = () => {
           >
             I agree with the{" "}
             <a
-              href="#"
+              href="/terms-conditions"
               className="text-primary hover:border-b  border-primary duration-500"
             >
-              terms and conditions
+              Terms and Conditions
             </a>
           </label>
         </div>
         <button type="submit" className="btn btn-primary ">
-          Get Started for Free
+          Book Now
         </button>
       </form>
     </div>
