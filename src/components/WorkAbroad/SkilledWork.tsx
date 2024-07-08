@@ -37,8 +37,8 @@ const SkilledWork = () => {
         <div className='flex-2'>
           <Motion effect='fade-up' easing='ease-in-out' duration='2000'>
             <div className='my-6 md:my-10 lg:my-16 p-7 bg-[#F3F9FF]'>
-              <h2 className='text-3xl md:text-4xl font-extrabold leading-normal mb-4 md:mb-8'>
-                Cost of Living in UK
+              <h2 className='text-2xl md:text-3xl font-extrabold leading-normal mb-4 md:mb-8'>
+                Total Employed Persons
               </h2>
               <WorkAbroadChart />
             </div>
