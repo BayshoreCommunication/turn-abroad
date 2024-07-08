@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence, Variants } from 'framer-motion';
+import Motion from '../motion/Motion';
 
 interface TabData {
   id: number;
