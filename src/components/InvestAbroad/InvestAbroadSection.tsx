@@ -87,38 +87,41 @@ const InvestAbroadSection: React.FC = () => {
 
   return (
     <div className='mt-12 mb-12'>
-      <div className='grid grid-cols-1 md:grid-cols-4 items-start h-full'>
-        <ul className='col-span-1 flex-column space-y space-y-4 text-sm font-medium text-gray-50 bg-[#F2F7FE] p-4 md:h-[550px] mb-8'>
-          {tabData?.map((item, index) => (
-            <motion.li
-              variants={variants}
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-              key={index}
-              onClick={() => setSelectTab(item.title)}
-            >
-              <Link
-                href='#'
-                className={`inline-flex items-center px-4 py-3 text-black rounded-lg active w-full text-md md:text-lg hover:bg-[#2F99CC] hover:text-white ${
-                  selectTab === item.title ? 'bg-[#2F99CC] text-white' : ''
-                }`}
-                aria-current='page'
+      <Motion effect='fade-up' duration='2000'>
+        {' '}
+        <div className='grid grid-cols-1 md:grid-cols-4 items-start h-full'>
+          <ul className='col-span-1 flex-column space-y space-y-4 text-sm font-medium text-gray-50 bg-[#F2F7FE] p-4 md:h-[550px] mb-8'>
+            {tabData?.map((item, index) => (
+              <motion.li
+                variants={variants}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
+                key={index}
+                onClick={() => setSelectTab(item.title)}
               >
-                {item.title}
-              </Link>
-            </motion.li>
-          ))}
-        </ul>
-        <div className='col-span-3 px-6 text-medium text-gray-500 rounded-lg w-full'>
-          {tabData
-            ?.filter((el) => el.title === selectTab)
-            .map((item, index) => (
-              <div key={index}>
-                <p className='text-xl'>{item?.decs}</p>
-              </div>
+                <Link
+                  href='#'
+                  className={`inline-flex items-center px-4 py-3 text-black rounded-lg active w-full text-md md:text-lg hover:bg-[#2F99CC] hover:text-white ${
+                    selectTab === item.title ? 'bg-[#2F99CC] text-white' : ''
+                  }`}
+                  aria-current='page'
+                >
+                  {item.title}
+                </Link>
+              </motion.li>
             ))}
+          </ul>
+          <div className='col-span-3 px-6 text-medium text-gray-500 rounded-lg w-full'>
+            {tabData
+              ?.filter((el) => el.title === selectTab)
+              .map((item, index) => (
+                <div key={index}>
+                  <p className='text-xl'>{item?.decs}</p>
+                </div>
+              ))}
+          </div>
         </div>
-      </div>
+      </Motion>
     </div>
   );
 };
