@@ -21,7 +21,7 @@ const VideoSection = () => {
               allowFullScreen
             ></iframe> */}
             <p className='mb-3 font-semibold text-xl text-center'>
-              TurnAbroad is a platform created by three friends who experienced
+              {` TurnAbroad is a platform created by three friends who experienced
               the challenges of being international students in the U.S. They
               faced visa uncertainties, job searches, and investment
               opportunities while pursuing their dreams. TurnAbroad aims to
@@ -31,7 +31,7 @@ const VideoSection = () => {
               drive their mission to create a community where personal stories
               meet professional dreams, ensuring that others do not feel as
               helpless as they once did. TurnAbroad is committed to making
-              overseas journeys rich, rewarding, and uniquely personal.
+              overseas journeys rich, rewarding, and uniquely personal.`}
             </p>
           </div>
           <div className='text-center mt-10'>
