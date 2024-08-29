@@ -70,26 +70,13 @@ const InvestAbroadSection: React.FC = () => {
   
       Sed consectetur consequat velit, eget finibus nunc accumsan id. Vestibulum eu orci in elit pharetra tristique. Mauris in dolor purus. Aliquam id quam tristique, porta quam ac, eleifend urna. Donec maximus justo mauris. Fusce tempus at dui vitae accumsan. Maecenas eget tellus massa. Quisque malesuada in eros at scelerisque. Maecenas tristique non quam eu eleifend. Nunc faucibus tellus et nisl pellentesque varius. Nam aliquam nulla ante, non tristique odio suscipit congue. Suspendisse sed lacus venenatis, ultrices lorem vitae, ornare diam. Proin nec augue elit. Curabitur lacus tellus, dictum quis dolor at, rhoncus consectetur tortor. Curabitur suscipit turpis ac mattis bibendum. Sed posuere vitae ante id condimentum`,
     },
-    {
-      id: 3,
-      title: 'E3 Investor Visa',
-      decs: `To ensure that the height of the image and the content in your blog post remain the same, you can use flexbox and some Tailwind CSS utilities. Here's a refined version of your code Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lacinia ac odio auctor venenatis. Nam suscipit facilisis ex sit amet tristique. Phasellus feugiat nec mi ac egestas. Aliquam ipsum orci, feugiat nec iaculis quis, tincidunt eget magna. Aliquam venenatis quam quis tempor vulputate. Etiam nec justo pulvinar, accumsan tortor eu, interdum purus. Quisque vel turpis dapibus ex vestibulum vestibulum. Nam sapien lorem, hendrerit quis ullamcorper sit amet, cursus quis libero.
-
-      Vivamus convallis molestie ex ut tristique. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin vitae arcu rutrum, finibus augue in, ornare mauris. Proin vel lectus vitae ante commodo finibus. Nullam a lectus vitae eros rutrum varius quis nec turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque viverra imperdiet posuere. Curabitur auctor risus a arcu tristique, luctus euismod est condimentum.
-
-      Sed quis nibh vel enim aliquet accumsan. Morbi sed dictum augue, sed bibendum magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam risus dui, iaculis id quam in, luctus finibus diam. Donec vitae sapien sit amet massa varius feugiat quis a enim. Maecenas lacinia, quam in interdum dapibus, ligula dolor dignissim neque, nec pellentesque urna turpis sit amet lorem. Vivamus dapibus turpis ac neque venenatis tristique. Donec elementum ex ac neque pharetra, a convallis metus sollicitudin. Sed eu finibus nisi. Aliquam massa lectus, vehicula sed iaculis at, vulputate malesuada nunc. Quisque ex libero, dignissim accumsan neque eget, tempus ultrices dui. Aenean a molestie nisl, vel egestas ligula. Ut et vehicula mauris. Integer vestibulum arcu diam, ultricies egestas lectus bibendum sed. Quisque eu quam congue tortor lacinia iaculis non eget lectus. Suspendisse vestibulum faucibus luctus.
-
-      Cras fringilla eros quam, sed consectetur nisi tincidunt ut. Nunc pharetra tortor quis sapien vehicula consectetur. Vivamus blandit eros eu odio vestibulum bibendum. Nulla in urna mauris. Ut vitae pretium lectus. Sed in tristique velit, eget lobortis mauris. Aliquam aliquet neque et libero efficitur vulputate. Sed pellentesque convallis felis mollis laoreet. Mauris vulputate est sed orci laoreet, quis efficitur turpis accumsan. Aenean turpis nisl, fermentum et luctus nec, imperdiet in mi. Donec vulputate neque sit amet orci cursus commodo non eu ligula. Vivamus feugiat metus nec ex sodales, elementum faucibus erat placerat. Ut consequat elit dolor, nec consequat nunc posuere eget. Donec consectetur magna at sapien gravida, at dignissim odio commodo. Vivamus hendrerit dolor elit. Nullam quis molestie massa.
-
-    Sed consectetur consequat velit, eget finibus nunc accumsan id. Vestibulum eu orci in elit pharetra tristique. Mauris in dolor purus. Aliquam id quam tristique, porta quam ac, eleifend urna. Donec maximus justo mauris. Fusce tempus at dui vitae accumsan. Maecenas eget tellus massa. Quisque malesuada in eros at scelerisque. Maecenas tristique non quam eu eleifend. Nunc faucibus tellus et nisl pellentesque varius. Nam aliquam nulla ante, non tristique odio suscipit congue. Suspendisse sed lacus venenatis, ultrices lorem vitae, ornare diam. Proin nec augue elit. Curabitur lacus tellus, dictum quis dolor at, rhoncus consectetur tortor. Curabitur suscipit turpis ac mattis bibendum. Sed posuere vitae ante id condimentum`,
-    },
   ];
 
   return (
     <div className='mt-12 mb-12'>
       <Motion effect='fade-up' duration='2000'>
         {' '}
-        <div className='grid grid-cols-1 md:grid-cols-4 items-start h-full'>
+        <div className='grid items-start h-full grid-cols-1 md:grid-cols-4'>
           <ul className='col-span-1 flex-column space-y space-y-4 text-sm font-medium text-gray-50 bg-[#F2F7FE] p-4 md:h-[550px] mb-8'>
             {tabData?.map((item, index) => (
               <motion.li
@@ -111,7 +98,7 @@ const InvestAbroadSection: React.FC = () => {
               </motion.li>
             ))}
           </ul>
-          <div className='col-span-3 px-6 text-medium text-gray-500 rounded-lg w-full'>
+          <div className='w-full col-span-3 px-6 text-gray-500 rounded-lg text-medium'>
             {tabData
               ?.filter((el) => el.title === selectTab)
               .map((item, index) => (
