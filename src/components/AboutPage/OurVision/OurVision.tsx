@@ -20,32 +20,23 @@ const OurVision = () => {
               <Motion effect='fade-right' duration='2000'>
                 <div className='w-full lg:max-w-4xl'>
                   <p className='mb-3 font-normal text-lg text-justify'>
-                    {` Our vision is more than just hollow mission statements; what we 
-                  promise is what we will deliver –nothing less. We uptake your 
-                  dreams as our own because at TurnAbroad we are a small family 
-                  in this big, scary world. As former students who have navigated 
-                  the complexities of immigration ourselves, we deeply believe 
-                  in the power of shared experiences. We have lived through it 
-                  - the excitement, the setbacks, and the triumphs. That's why 
-                  at TurnAbroad, we're not just going to be a faceless platform. 
-                  We are going to be your mentors, your companions, and your 
-                  friends who will guide you towards the path of success. As 
-                  your family, we will ensure that you will never have to face 
-                  the difficulties we had to; that you will never feel helpless 
-                  and be alone in your struggles as together, we work to build 
-                  a global community filled with the collective wisdom of 
-                  talented individuals like you.`}
+                    {`At TurnAbroad, we're more than just a platform - we're a close-knit family dedicated to 
+                    turning your dreams into reality. As former students who have experienced the complexities 
+                    of immigration firsthand, we understand the challenges you face. We've lived through the excitement, 
+                    the setbacks, and the victories that come with navigating this path.`}
                   </p>
                   <p className='mb-3 font-normal text-lg text-justify'>
-                    {`In short, your visions and goals are our own. They are our
-                    top priorities! We are going to dissolve the barriers for
-                    students, investors and job seekers to make your journeys
-                    overseas hurdle-free and memorable. We are going to bridge
-                    the gap between people from all walks of life and encourage
-                    a united front of diverse cultures. So, don't wait any
-                    longer! Set aside all your fears and embark on this journey
-                    with us, as you take a comfortable and safe seat during this
-                    transformative journey to success!`}
+                    {`Our mission is to be more than just mentors. We're your companions, guiding you at every 
+                    step of the way. You won't face the same struggles we did, and you'll never feel lost or 
+                    alone in your journey. Together, we'll build a global community of talented individuals 
+                    like you, offering the support and wisdom you need to succeed.`}
+                  </p>
+                  <p className='mb-3 font-normal text-lg text-justify'>
+                    {`Your vision is our priority. We're here to break down barriers for students, investors, 
+                    and job seekers, making your overseas journey seamless and unforgettable. By bridging 
+                    cultures and connecting people from all walks of life, we aim to create a unified global 
+                    network. So, set your fears aside and embark on this transformative journey with us, as 
+                    we help guide you to success!`}
                   </p>
                 </div>
               </Motion>

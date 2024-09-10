@@ -49,7 +49,7 @@ const InvestAbroadSection: React.FC = () => {
   const tabData: TabData[] = [
     {
       id: 1,
-      title: 'E1 Investor Visa',
+      title: 'E2 Investor Visa',
       decs: `This setup leverages Next.js's image optimization features and ensures that the iframe and background image are displayed correctly across different screen sizes. Sed quis nibh vel enim aliquet accumsan. Morbi sed dictum augue, sed bibendum magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam risus dui, iaculis id quam in, luctus finibus diam.
 
       z Donec vitae sapien sit amet massa varius feugiat quis a enim. Maecenas lacinia, quam in interdum dapibus, ligula dolor dignissim neque, nec pellentesque urna turpis sit amet lorem. Vivamus dapibus turpis ac neque venenatis tristique. Donec elementum ex ac neque pharetra, a convallis metus sollicitudin. Sed eu finibus nisi. Aliquam massa lectus, vehicula sed iaculis at, vulputate malesuada nunc. Quisque ex libero, dignissim accumsan neque eget, tempus ultrices dui. Aenean a molestie nisl, vel egestas ligula. Ut et vehicula mauris. Integer vestibulum arcu diam, ultricies egestas lectus bibendum sed. Quisque eu quam congue tortor lacinia iaculis non eget lectus. Suspendisse vestibulum faucibus luctus.
@@ -60,7 +60,7 @@ const InvestAbroadSection: React.FC = () => {
     },
     {
       id: 2,
-      title: 'E2 Investor Visa',
+      title: 'EB5 Investor Visa',
       decs: `To achieve the desired styling where the bullet points are left-aligned and the text is right-aligned, you can use CSS Flexbox. Here's how you can adjust your list styling 
       
       Sed quis nibh vel enim aliquet accumsan. Morbi sed dictum augue, sed bibendum magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam risus dui, iaculis id quam in, luctus finibus diam.
