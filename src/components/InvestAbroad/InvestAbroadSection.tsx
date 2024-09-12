@@ -107,7 +107,7 @@ const InvestAbroadSection: React.FC = () => {
 
                 <ul className="list-disc list-inside gap-x-1 flex flex-col gap-1">
                   <li className="font-normal text-lg ">
-                    <span className="font-bold text-black">Residency:</span>{" "}
+                    <span className="font-bold text-black">Residency:</span>
                     Live and work in the U.S. while managing your business.
                   </li>
                   <li className="font-normal text-lg ">
@@ -116,7 +116,7 @@ const InvestAbroadSection: React.FC = () => {
                     even work or study in the U.S.
                   </li>
                   <li className="font-normal text-lg ">
-                    <span className="font-bold text-black">Renewability:</span>{" "}
+                    <span className="font-bold text-black">Renewability:</span>
                     The E2 visa can be renewed indefinitely, as long as you
                     maintain your investment and meet the visa requirements.
                   </li>
@@ -129,12 +129,12 @@ const InvestAbroadSection: React.FC = () => {
 
                 <ol className="list-decimal list-outside ms-5 gap-x-1 flex flex-col gap-1">
                   <li className="font-normal text-lg ">
-                    <span className="font-bold text-black">Consultation:</span>{" "}
+                    <span className="font-bold text-black">Consultation:</span>
                     Our experts at TurnAbroad will evaluate your eligibility and
                     outline the necessary steps.
                   </li>
                   <li className="font-normal text-lg ">
-                    <span className="font-bold text-black">Documentation:</span>{" "}
+                    <span className="font-bold text-black">Documentation:</span>
                     Your We assist in gathering and preparing all required
                     documentation, including proof of investment and business
                     plans.
@@ -145,7 +145,7 @@ const InvestAbroadSection: React.FC = () => {
                     and completeness.
                   </li>
                   <li className="font-normal text-lg ">
-                    <span className="font-bold text-black">Interview:</span>{" "}
+                    <span className="font-bold text-black">Interview:</span>
                     Preparation for your consular interview, including potential
                     questions and required documents.
                   </li>
@@ -170,12 +170,12 @@ const InvestAbroadSection: React.FC = () => {
                   <li className="font-normal text-lg ">
                     <span className="font-bold text-black">
                       Personalized Service:
-                    </span>{" "}
+                    </span>
                     Tailored guidance to meet your unique needs and
                     circumstances. plans.
                   </li>
                   <li className="font-normal text-lg ">
-                    <span className="font-bold text-black">Success Rate:</span>{" "}
+                    <span className="font-bold text-black">Success Rate:</span>
                     High approval rates due to our meticulous approach and
                     thorough preparation.
                   </li>
@@ -253,19 +253,19 @@ const InvestAbroadSection: React.FC = () => {
                   <li className="font-normal text-lg ">
                     <span className="font-bold text-black">
                       Permanent Residency:
-                    </span>{" "}
+                    </span>
                     Obtain a green card for yourself, your spouse, and your
                     unmarried children under 21.
                   </li>
                   <li className="font-normal text-lg ">
                     <span className="font-bold text-black">
                       Path to Citizenship:
-                    </span>{" "}
+                    </span>
                     After maintaining permanent residency for five years, you
                     can apply for U.S. citizenship.
                   </li>
                   <li className="font-normal text-lg ">
-                    <span className="font-bold text-black">Flexibility:</span>{" "}
+                    <span className="font-bold text-black">Flexibility:</span>
                     You can live and work anywhere in the U.S. while your
                     investment contributes to economic growth.
                   </li>
@@ -278,28 +278,28 @@ const InvestAbroadSection: React.FC = () => {
 
                 <ol className="list-decimal list-outside ms-5 gap-x-1 flex flex-col gap-1">
                   <li className="font-normal text-lg ">
-                    <span className="font-bold text-black">Consultation:</span>{" "}
+                    <span className="font-bold text-black">Consultation:</span>
                     Our team at TurnAbroad will assess your eligibility and
                     guide you through the investment options.
                   </li>
                   <li className="font-normal text-lg ">
                     <span className="font-bold text-black">
                       Investment Planning:
-                    </span>{" "}
+                    </span>
                     We provide assistance in selecting the right business
                     venture to meet the visa’s requirements.
                   </li>
                   <li className="font-normal text-lg ">
                     <span className="font-bold text-black">
                       Documentation Preparation:
-                    </span>{" "}
+                    </span>
                     We help prepare all necessary documentation, including
                     investment proof and job creation plans. and completeness.
                   </li>
                   <li className="font-normal text-lg ">
                     <span className="font-bold text-black">
                       Application Submission:
-                    </span>{" "}
+                    </span>
                     TurnAbroad ensures a smooth application submission process
                     with attention to detail.
                   </li>
@@ -331,7 +331,6 @@ const InvestAbroadSection: React.FC = () => {
   return (
     <div className="mt-12 mb-12">
       <Motion effect="fade-up" duration="2000">
-        {" "}
         <div className="grid items-start h-full grid-cols-1 md:grid-cols-4">
           <ul className="col-span-1 flex-column space-y space-y-4 text-sm font-medium text-gray-50 bg-[#F2F7FE] p-4 md:h-[550px] mb-8">
             {tabData?.map((item, index) => (
