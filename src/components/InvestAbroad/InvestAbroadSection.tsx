@@ -105,7 +105,7 @@ const InvestAbroadSection: React.FC = () => {
                   Benefits of an E2 Visa
                 </h2>
 
-                <ul className="list-disc list-inside gap-x-1 flex flex-col gap-1">
+                <ul className="list-disc list-outside ms-5 gap-x-1 flex flex-col gap-1">
                   <li className="font-normal text-lg ">
                     <span className="font-bold text-black">Residency:</span>
                     Live and work in the U.S. while managing your business.
