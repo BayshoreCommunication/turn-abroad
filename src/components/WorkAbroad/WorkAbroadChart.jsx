@@ -13,11 +13,11 @@ import {
 Chart.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
 const dataHorBar = {
-  labels: ['Hijo', 'Hermano', 'Mamá', 'Esposo', 'Padre', 'Pareja', 'Sobrino'],
+  labels: ['Education and health', 'Professional and Business', 'Wholesale and Retail', 'Manufacturing', 'Leisure and Hospitality', 'Financial Activities', 'Information'],
   datasets: [
     {
       backgroundColor: ['#1890FF'],
-      data: [621, 501, 457, 456, 224, 172, 413, 472],
+      data: [21.4, 12.2, 11.7, 9.2, 8.4, 6.5, 1.8],
     },
   ],
 };

@@ -11,7 +11,7 @@ function EmploymentStates() {
           {/*  Top cities in USA */}
           <div className='mb-6 md:mb-10 lg:mb-16'>
             <h2 className='text-3xl md:text-4xl font-extrabold leading-normal mb-4 md:mb-8'>
-              Top cities to employment
+              Top cities to work in the US
             </h2>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4'>
               <div className='flex items-center gap-4'>
@@ -23,11 +23,10 @@ function EmploymentStates() {
                   className='rounded overflow-hidden'
                 />
                 <div>
-                  <h4 className='text-xl font-bold mb-2'>Utah</h4>
+                  <h4 className='text-xl font-bold mb-2'>Oklahoma City</h4>
                   <div className='flex items-center gap-1'>
-                    <span className='text-[#6E767E]'>
-                      Utah was dubbed Deseret by members
-                    </span>
+                    <FaStar color='#F7C32E' size={16} />
+                    <span className='text-[#6E767E]'>10</span>
                   </div>
                 </div>
               </div>
@@ -41,10 +40,10 @@ function EmploymentStates() {
                   className='rounded overflow-hidden'
                 />
                 <div>
-                  <h4 className='text-xl font-bold mb-2'>New Hampshire</h4>
+                  <h4 className='text-xl font-bold mb-2'>Cape Coral</h4>
                   <div className='flex items-center gap-1'>
                     <FaStar color='#F7C32E' size={16} />
-                    <span className='text-[#6E767E]'>10</span>
+                    <span className='text-[#6E767E]'>9.8</span>
                   </div>
                 </div>
               </div>
@@ -57,10 +56,10 @@ function EmploymentStates() {
                   className='rounded overflow-hidden'
                 />
                 <div>
-                  <h4 className='text-xl font-bold mb-2'>Nebraska</h4>
+                  <h4 className='text-xl font-bold mb-2'>Jacksonville</h4>
                   <div className='flex items-center gap-1'>
                     <FaStar color='#F7C32E' size={16} />
-                    <span className='text-[#6E767E]'>10</span>
+                    <span className='text-[#6E767E]'>9.7</span>
                   </div>
                 </div>
               </div>
@@ -73,10 +72,10 @@ function EmploymentStates() {
                   className='rounded overflow-hidden'
                 />
                 <div>
-                  <h4 className='text-xl font-bold mb-2'>Minnesota</h4>
+                  <h4 className='text-xl font-bold mb-2'>Orlando</h4>
                   <div className='flex items-center gap-1'>
                     <FaStar color='#F7C32E' size={16} />
-                    <span className='text-[#6E767E]'>10</span>
+                    <span className='text-[#6E767E]'>9.5</span>
                   </div>
                 </div>
               </div>

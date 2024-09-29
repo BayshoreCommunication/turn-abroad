@@ -57,13 +57,11 @@ const InvestAbroadSection: React.FC = () => {
                   E2 Visa
                 </h2>
                 <p className="font-normal text-lg ">
-                  At TurnAbroad, we aim to transform borders from barriers into
-                  gateways to success. Our expertise lies in guiding individuals
-                  toward fulfilling international careers across various fields.
-                  With our comprehensive resources and unwavering commitment, we
-                  empower you to navigate the complexities of international
-                  employment and secure your dream job. Explore, experience, and
-                  excel in your global career ambitions with TurnAbroad.
+                  The E2 Visa serves as an excellent opportunity for investors seeking to expand 
+                  their business ventures in the United States. At TurnAbroad, we provide tailored 
+                  guidance to help you comprehend and navigate the intricacies of the E2 visa 
+                  application process. With our expertise, you can confidently embark on your 
+                  journey to establishing a successful enterprise in the U.S.
                 </p>
               </div>
               <div>
@@ -90,11 +88,10 @@ const InvestAbroadSection: React.FC = () => {
                     maintains a treaty of commerce and navigation.
                   </li>
                   <li className="font-normal text-lg ">
-                    Invest a substantial amount of capital in a U.S. business.
+                    Invest a minimum amount of $60,000 in a U.S. business.
                   </li>
                   <li className="font-normal text-lg ">
-                    Be coming to the U.S. to develop and direct the investment
-                    enterprise, demonstrating at least 50% ownership or
+                    Have at least 50% ownership or
                     possession of operational control through a managerial
                     position or other corporate device.
                   </li>
@@ -131,11 +128,11 @@ const InvestAbroadSection: React.FC = () => {
                   <li className="font-normal text-lg ">
                     <span className="font-bold text-black">Consultation:</span>
                     Our experts at TurnAbroad will evaluate your eligibility and
-                    outline the necessary steps.
+                    outline the necessary steps for your investment.
                   </li>
                   <li className="font-normal text-lg ">
                     <span className="font-bold text-black">Documentation:</span>
-                    Your We assist in gathering and preparing all required
+                    We assist in gathering and preparing all required
                     documentation, including proof of investment and business
                     plans.
                   </li>
@@ -164,7 +161,7 @@ const InvestAbroadSection: React.FC = () => {
                 <ol className="list-disc list-inside gap-x-1 flex flex-col gap-1">
                   <li className="font-normal text-lg ">
                     <span className="font-bold text-black">Expertise:</span> Our
-                    experienced professionals specialize in E2 visa
+                    experienced professionals and lawyers specialize in E2 visa
                     applications.
                   </li>
                   <li className="font-normal text-lg ">
@@ -172,11 +169,11 @@ const InvestAbroadSection: React.FC = () => {
                       Personalized Service:
                     </span>
                     Tailored guidance to meet your unique needs and
-                    circumstances. plans.
+                    circumstances.
                   </li>
                   <li className="font-normal text-lg ">
                     <span className="font-bold text-black">Success Rate:</span>
-                    High approval rates due to our meticulous approach and
+                    High approval rates and faster processing due to our meticulous approach and
                     thorough preparation.
                   </li>
                 </ol>
@@ -184,7 +181,7 @@ const InvestAbroadSection: React.FC = () => {
               <div>
                 <p className="font-normal text-lg">
                   TurnAbroad is your trusted partner in achieving your
-                  international career aspirations. Let us help you turn borders
+                  international investment aspirations. Let us help you turn borders
                   into gateways and make your global business dreams a reality.
                 </p>
               </div>
@@ -199,14 +196,11 @@ const InvestAbroadSection: React.FC = () => {
                   EB5 Visa
                 </h2>
                 <p className="font-normal text-lg ">
-                  At TurnAbroad, we aim to transform borders into gateways to
-                  success by guiding individuals toward thriving international
-                  careers. With our expertise, dedicated resources, and
-                  commitment to your goals, we help you navigate the
-                  complexities of international employment and reach your global
-                  aspirations. Whether you’re exploring new career opportunities
-                  or planning to invest in your future, TurnAbroad is here to
-                  empower you every step of the way.
+                  The EB-5 visa presents a remarkable opportunity for investors aiming to 
+                  secure permanent residency in the United States through business investments. 
+                  At TurnAbroad, we offer personalized assistance to help you understand and 
+                  navigate the complexities of the EB-5 application process. With our expertise, 
+                  you can confidently take the next steps toward realizing your dreams of a prosperous future in the U.S.
                 </p>
               </div>
               <div>
@@ -231,11 +225,10 @@ const InvestAbroadSection: React.FC = () => {
                 </p>
                 <ol className="list-decimal list-outside ms-5 gap-x-1 flex flex-col gap-1 ">
                   <li className="font-normal text-lg ">
-                    Invest a minimum of $1.05 million, or $800,000 in a targeted
-                    employment area (TEA), in a U.S. business.
+                    Invest a minimum of $800,000 in a U.S. business.
                   </li>
                   <li className="font-normal text-lg ">
-                    Create or preserve at least 10 full-time jobs for U.S.
+                    Create at least 10 full-time jobs for U.S.
                     workers within two years of your investment.
                   </li>
                   <li className="font-normal text-lg ">
@@ -267,7 +260,7 @@ const InvestAbroadSection: React.FC = () => {
                   <li className="font-normal text-lg ">
                     <span className="font-bold text-black">Flexibility:</span>
                     You can live and work anywhere in the U.S. while your
-                    investment contributes to economic growth.
+                    investment contributes to economic growth of 
                   </li>
                 </ul>
               </div>
@@ -279,29 +272,24 @@ const InvestAbroadSection: React.FC = () => {
                 <ol className="list-decimal list-outside ms-5 gap-x-1 flex flex-col gap-1">
                   <li className="font-normal text-lg ">
                     <span className="font-bold text-black">Consultation:</span>
-                    Our team at TurnAbroad will assess your eligibility and
-                    guide you through the investment options.
+                    Our experts at TurnAbroad will evaluate your eligibility and
+                    outline the necessary steps for your investment.
                   </li>
                   <li className="font-normal text-lg ">
-                    <span className="font-bold text-black">
-                      Investment Planning:
-                    </span>
-                    We provide assistance in selecting the right business
-                    venture to meet the visa’s requirements.
+                    <span className="font-bold text-black">Documentation:</span>
+                    We assist in gathering and preparing all required
+                    documentation, including proof of investment and business
+                    plans.
                   </li>
                   <li className="font-normal text-lg ">
-                    <span className="font-bold text-black">
-                      Documentation Preparation:
-                    </span>
-                    We help prepare all necessary documentation, including
-                    investment proof and job creation plans. and completeness.
+                    <span className="font-bold text-black">Submission:</span> We
+                    guide you through the submission process to ensure accuracy
+                    and completeness.
                   </li>
                   <li className="font-normal text-lg ">
-                    <span className="font-bold text-black">
-                      Application Submission:
-                    </span>
-                    TurnAbroad ensures a smooth application submission process
-                    with attention to detail.
+                    <span className="font-bold text-black">Interview:</span>
+                    Preparation for your consular interview, including potential
+                    questions and required documents.
                   </li>
                   <li className="font-normal text-lg ">
                     <span className="font-bold text-black">Approval:</span> Once
@@ -312,16 +300,34 @@ const InvestAbroadSection: React.FC = () => {
               </div>
               <div>
                 <h2 className="text-2xl font-extrabold leading-normal text-black mb-1 ">
-                  Why TurnAbroad?
+                  Why Choose TurnAbroad?
                 </h2>
 
+                <ol className="list-disc list-inside gap-x-1 flex flex-col gap-1">
+                  <li className="font-normal text-lg ">
+                    <span className="font-bold text-black">Expertise:</span> Our
+                    experienced professionals and lawyers specialize in EB5 visa
+                    applications.
+                  </li>
+                  <li className="font-normal text-lg ">
+                    <span className="font-bold text-black">
+                      Personalized Service:
+                    </span>
+                    Tailored guidance to meet your unique needs and
+                    circumstances.
+                  </li>
+                  <li className="font-normal text-lg ">
+                    <span className="font-bold text-black">Success Rate:</span>
+                    High approval rates due to our meticulous approach and
+                    thorough preparation.
+                  </li>
+                </ol>
+              </div>
+              <div>
                 <p className="font-normal text-lg">
-                  With TurnAbroad’s expertise in navigating the EB-5 visa
-                  process, you can confidently invest in your future. Our
-                  personalized approach, commitment to your success, and deep
-                  understanding of U.S. immigration laws ensure that you have
-                  the support you need at every stage of your journey. Let us
-                  help you turn your global business dreams into reality
+                  TurnAbroad is your trusted partner in achieving your
+                  international investment aspirations. Let us help you turn borders
+                  into gateways and make your global business dreams a reality.
                 </p>
               </div>
             </div>`,
