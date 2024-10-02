@@ -33,7 +33,7 @@ const VideoSection = () => {
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
-                title="USA Immigration Attorney Hardam Tripathi, Esq."
+                title="What is TurnAbroad"
                 loading="lazy"
                 className="w-full lg:w-[900px]  h-64 md:h-96 lg:h-[508px] mx-auto  rounded-3xl overflow-hidden"
               ></iframe>
