@@ -9,8 +9,8 @@ import LivingCostChart from "../StudentsPage/Countries/UK/LivingCostChart";
 
 const StudyUK = () => {
   return (
-    <div className="flex flex-wrap lg:flex-nowrap gap-10">
-      <div className="">
+    <div className="flex flex-col lg:flex-row gap-10">
+      <div className="w-full lg:max-w-[65%] ">
         <div className="">
           <figure className="overflow-hidden">
             <Image src={UKImage} alt="USA Image" className="w-full" />
@@ -33,7 +33,7 @@ const StudyUK = () => {
         </div>
         <UK />
       </div>
-      <div className="w-full lg:max-w-lg flex flex-col-reverse lg:flex-col">
+      <div className="w-full lg:max-w-[35%]  flex flex-col-reverse lg:flex-col">
         <StudentConsultationFrom />
         <div className="flex-2">
           <Motion effect="fade-up" easing="ease-in-out" duration="2000">

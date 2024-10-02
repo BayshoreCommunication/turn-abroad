@@ -6,27 +6,26 @@ import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import StudyUSA from "./StudyUSA";
 import StudyCanada from "./StudyCanada";
 import Process from "../StudentsPage/Process/Process";
-import { useSearchParams } from 'next/navigation'
+import { useSearchParams } from "next/navigation";
 const StudyAbroadSection = () => {
+  const searchParams = useSearchParams();
 
-  const searchParams = useSearchParams()
-  
-  const query = searchParams.get('query')
+  const query = searchParams.get("query");
   // console.log(query)
-  const [activeIndex, setActiveIndex] =useState(0)
-  useEffect(()=>{
-    if(query){
-      if(query==='usa'){
-        setActiveIndex(0)
+  const [activeIndex, setActiveIndex] = useState(0);
+  useEffect(() => {
+    if (query) {
+      if (query === "usa") {
+        setActiveIndex(0);
       }
-      if(query==='uk'){
-        setActiveIndex(1)
+      if (query === "uk") {
+        setActiveIndex(1);
       }
-      if(query==='canada'){
-        setActiveIndex(2)
+      if (query === "canada") {
+        setActiveIndex(2);
       }
     }
-  },[query])
+  }, [query]);
   return (
     <section className="py-10 lg:py-14 xl:py-16">
       <Process />
@@ -35,14 +34,14 @@ const StudyAbroadSection = () => {
           <Tabs className="pt-6 lg:pt-8 xl:pt-10" selectedIndex={activeIndex}>
             <div className="flex flex-wrap gap-4 items-center justify-between mb-4 lg:mb-8">
               <h1 className="text-center text-3xl md:text-[40px] font-extrabold leading-normal">
-                Study  <span className="text-primary">Abroad</span>
+                Study <span className="text-primary">Abroad</span>
               </h1>
               <TabList
                 role="tablist"
                 className="tabs md:grid-cols-3 w-full md:w-fit rounded-[80px] p-0 bg-[#f3f3f3] overflow-hidden"
               >
                 <Tab
-                   onClick={() => {
+                  onClick={() => {
                     setActiveIndex(0);
                   }}
                   role="tab"
@@ -51,7 +50,7 @@ const StudyAbroadSection = () => {
                   USA
                 </Tab>
                 <Tab
-                   onClick={() => {
+                  onClick={() => {
                     setActiveIndex(1);
                   }}
                   role="tab"
@@ -60,7 +59,7 @@ const StudyAbroadSection = () => {
                   UK
                 </Tab>
                 <Tab
-                   onClick={() => {
+                  onClick={() => {
                     setActiveIndex(2);
                   }}
                   role="tab"

@@ -1,43 +1,43 @@
-import React from 'react';
-import Motion from '@src/components/motion/Motion';
-import { FaQuoteRight } from 'react-icons/fa';
+import React from "react";
+import Motion from "@src/components/motion/Motion";
+import { FaQuoteRight } from "react-icons/fa";
 
 const InvestorReviews = () => {
   const reviewsData = {
     reviews: [
       {
-        review:
-          'This platform has significantly improved my investment strategy.',
-        reviewer_name: 'John Smith',
-        profession: 'Financial Analyst',
+        review: "Helped me expand my business overseas seamlessly.",
+        reviewer_name: "Abdul Karim",
+        profession: "Managing Director",
       },
       {
         review:
-          'The insights provided are invaluable provided are invaluable for making informed decisions.',
-        reviewer_name: 'Jane Doe',
-        profession: 'Portfolio Manager',
+          "TurnAbroad made international investment simple and efficient.",
+        reviewer_name: "Farzana Rahman",
+        profession: "CEO, Textile Industry",
       },
       {
-        review:
-          'I appreciate the detailed analytics and easy-to-use interface.',
-        reviewer_name: 'Alice Johnson',
-        profession: 'Investment Banker',
+        review: "They handled everything for my global business expansion.",
+        reviewer_name: "Nizam Uddin",
+        profession: "Owner, Construction Firm",
       },
     ],
   };
 
   return (
-    <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 '>
+    <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 ">
       {reviewsData.reviews.map((reviewItem, index) => (
         <div key={index}>
-          <div className='mb-8 lg:mb-0 p-8 bg-[#F2F7FE] rounded-lg h-full'>
-            <FaQuoteRight className='text-5xl text-primary opacity-60' />
-            <p className='py-6 text-xl font-medium'>{reviewItem.review}</p>
+          <div className="mb-8 lg:mb-0 p-8 bg-[#F2F7FE] rounded-lg h-full flex flex-col justify-between">
             <div>
-              <h2 className='mb-2 text-4xl font-bold'>
+              <FaQuoteRight className="text-5xl text-primary opacity-60" />
+              <p className="py-6 text-xl font-medium">{reviewItem.review}</p>
+            </div>
+            <div>
+              <h2 className="mb-2 text-4xl font-bold">
                 {reviewItem.reviewer_name}
               </h2>
-              <h4 className='text-xl font-semibold text-primary'>
+              <h4 className="text-xl font-semibold text-primary">
                 {reviewItem.profession}
               </h4>
             </div>

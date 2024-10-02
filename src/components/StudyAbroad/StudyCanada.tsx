@@ -8,15 +8,11 @@ import LivingCostChart from "../StudentsPage/Countries/Canada/LivingCostChart";
 
 const StudyCanada = () => {
   return (
-    <div className="flex flex-wrap lg:flex-nowrap gap-10">
-      <div className="">
+    <div className="flex flex-col lg:flex-row gap-10">
+      <div className="w-full lg:max-w-[65%] ">
         <div className="">
           <figure className="overflow-hidden">
-            <Image
-              src={CanadaImage}
-              alt="USA Image"
-              className="w-full  "
-            />
+            <Image src={CanadaImage} alt="USA Image" className="w-full  " />
           </figure>
           <h2 className="text-2xl font-bold text-secondary mt-6 mb-4">
             Our goal is to make the process of studying abroad smooth and
@@ -32,9 +28,9 @@ const StudyCanada = () => {
 
           {/* <Link href={"#"} className="btn btn-primary">Apply Now <FaArrowRight/></Link> */}
         </div>
-        <Canada/>
+        <Canada />
       </div>
-      <div className="w-full lg:max-w-lg flex flex-col-reverse lg:flex-col">
+      <div className="w-full lg:max-w-[35%]  flex flex-col-reverse lg:flex-col">
         <StudentConsultationFrom />
         <Motion effect="fade-up" easing="ease-in-out" duration="2000">
           <div className="my-6 md:my-10 lg:my-16 p-7 bg-[#F3F9FF]">

@@ -45,8 +45,7 @@ import { FaQuoteRight } from "react-icons/fa";
 const reviewsData = {
   reviews: [
     {
-      review:
-        "This platform has significantly improved my investment strategy.",
+      review: "Helped me expand my business overseas seamlessly.",
       reviewer_name: "John Smith",
       profession: "Financial Analyst",
     },
