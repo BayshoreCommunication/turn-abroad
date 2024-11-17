@@ -7,13 +7,13 @@ const VideoSection = () => {
     <section className="py-10 lg:py-14 xl:py-16 overflow-hidden">
       <Motion effect="fade-up" duration="1500">
         <div className="container">
-          <div className="text-center xl:max-w-6xl mb-7 mx-auto">
+          <div className="text-center xl:max-w-6xl mb-4 mx-auto">
             <h1 className="text-3xl md:text-[40px] font-extrabold leading-normal">
               What is <span className="text-primary"> TurnAbroad</span> ?
             </h1>
           </div>
           <div>
-            <p className="mb-3 font-semibold text-xl text-center">
+            <p className="mb-6 font-semibold text-xl text-center">
               {` TurnAbroad is a platform created by three friends who experienced
               the challenges of being international students in the U.S. They
               faced visa uncertainties, job searches, and investment
