@@ -35,7 +35,7 @@ const StudentConsultationFrom = () => {
         "service_5yimeas",
         "template_j4y4dmv",
         templateParams,
-        "qXgOBtbUthNCALVqY"
+        "Y-2_mv-FHC710OGp_"
       )
       .then(
         function (response) {
@@ -71,6 +71,7 @@ const StudentConsultationFrom = () => {
           name="name"
           placeholder="Name"
           ref={nameRef}
+          required
           className="input border-[#B7BBBF] w-full focus:outline-none bg-transparent"
         />
         <input
@@ -78,21 +79,26 @@ const StudentConsultationFrom = () => {
           name="email"
           ref={emailRef}
           placeholder="Email"
+          required
           className="input border-[#B7BBBF] w-full focus:outline-none bg-transparent"
         />
         <input
           ref={mobileNoRef}
           name="mobileNo"
-          type="number"
+          type="text"
           placeholder="Mobile Number"
           className="input border-[#B7BBBF] w-full focus:outline-none bg-transparent"
         />
         <select
           ref={preferenceRef}
+          required
           name="preference"
           className="select border-[#B7BBBF] w-full focus:outline-none bg-transparent"
+          defaultValue=""
         >
-          <option>Preferred Study Destination</option>
+          <option value="" disabled>
+            Preferred Study Destination
+          </option>
           <option>United States</option>
           <option>United Kingdom</option>
           <option>Canada</option>

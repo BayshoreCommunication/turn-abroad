@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Link from "next/link";
 import React, { useRef } from "react";
 import Motion from "../motion/Motion";
@@ -49,7 +49,7 @@ const ContactFrom = () => {
         "service_5yimeas",
         "template_b1at7a5",
         templateParams,
-        // "qXgOBtbUthNCALVqY"
+        "Y-2_mv-FHC710OGp_"
       )
       .then(
         function (response) {
@@ -61,7 +61,7 @@ const ContactFrom = () => {
         },
         function (error) {
           // toast.error("OOPs something went wrong... Try again later");
-          toast.error("OOPs something went wrong... The Public key is required");
+          toast.error("OOPs something went wrong... ");
           console.log("FAILED...", error);
         }
       );
@@ -110,7 +110,7 @@ const ContactFrom = () => {
             />
           </div>
           <div className="form-control mt-6">
-            <Button className="btn btn-primary z-50" type="submit" >
+            <Button className="btn btn-primary z-50" type="submit">
               Send Message
             </Button>
           </div>

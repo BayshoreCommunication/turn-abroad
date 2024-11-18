@@ -22,21 +22,21 @@ const Registration = () => {
               bgImage="investorRegistration"
               title="Investor Registration"
               description=""
-              href=""
+              href="/invest-abroad"
               linkTitle="Investor Registration"
             />
             <RegistrationCard
               bgImage="studentRegistration"
               title="Student Registration"
               description=""
-              href=""
+              href="/study-abroad"
               linkTitle="Student Registration"
             />
             <RegistrationCard
               bgImage="employeeRegistration"
               title="Employee Registration"
               description=""
-              href=""
+              href="/work-abroad"
               linkTitle="Employee Registration"
             />
           </div>

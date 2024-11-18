@@ -38,7 +38,7 @@ const UK = () => {
                     Cost of Studying per Year
                   </h4>
                   <p className="text-base font-bold text-[#636363]">
-                    $10,000 to $55,000
+                    £10,000 to £55,000
                   </p>
                 </div>
               </div>
@@ -49,7 +49,7 @@ const UK = () => {
                     Cost of Living per Year
                   </h4>
                   <p className="text-base font-bold text-[#636363]">
-                    $8,000 to $16,000
+                    £8,000 to £16,000
                   </p>
                 </div>
               </div>

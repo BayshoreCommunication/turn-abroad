@@ -18,6 +18,7 @@ const WorkerConsultationFrom = () => {
       mobileNo: mobileNoRef?.current?.value,
       preference: preferenceRef?.current?.value,
     };
+
     if (!nameRef?.current?.value) {
       return toast.error("Please Enter Your Name", {
         toastId: "workerConsultationFromNameError",
@@ -35,7 +36,7 @@ const WorkerConsultationFrom = () => {
         "service_5yimeas",
         "template_j4y4dmv",
         templateParams,
-        "qXgOBtbUthNCALVqY"
+        "Y-2_mv-FHC710OGp_"
       )
       .then(
         function (response) {
@@ -71,6 +72,7 @@ const WorkerConsultationFrom = () => {
           name="name"
           placeholder="Name"
           ref={nameRef}
+          required
           className="input border-[#B7BBBF] w-full focus:outline-none bg-transparent"
         />
         <input
@@ -78,12 +80,13 @@ const WorkerConsultationFrom = () => {
           name="email"
           ref={emailRef}
           placeholder="Email"
+          required
           className="input border-[#B7BBBF] w-full focus:outline-none bg-transparent"
         />
         <input
           ref={mobileNoRef}
           name="mobileNo"
-          type="number"
+          type="text"
           placeholder="Mobile Number"
           className="input border-[#B7BBBF] w-full focus:outline-none bg-transparent"
         />
@@ -92,12 +95,16 @@ const WorkerConsultationFrom = () => {
           name="preference"
           className="select border-[#B7BBBF] w-full focus:outline-none bg-transparent"
           defaultValue=""
+          required
         >
-          <option>Preferred Work</option>
+          <option value="" disabled>
+            Preferred Work
+          </option>
           <option>Skilled</option>
           <option>Unskilled</option>
           <option>Independent Work</option>
         </select>
+
         {/* <select
           className="select border-[#B7BBBF] w-full focus:outline-none bg-transparent"
           defaultValue=""
