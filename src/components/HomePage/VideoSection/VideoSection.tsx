@@ -38,8 +38,9 @@ const VideoSection = () => {
                 className="w-full lg:w-[900px]  h-64 md:h-96 lg:h-[508px] mx-auto  rounded-3xl overflow-hidden"
               ></iframe> */}
               <video
+                controls
                 autoPlay
-                loop
+                // loop
                 muted
                 preload="auto"
                 className="w-full lg:w-[900px] h-64 md:h-96 lg:h-[508px] mx-auto rounded-2xl overflow-hidden border-2 border-primary"
