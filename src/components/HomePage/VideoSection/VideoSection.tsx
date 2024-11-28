@@ -28,7 +28,7 @@ const VideoSection = () => {
             </p>
 
             <div className="video-container">
-              <iframe
+              {/* <iframe
                 src={`https://www.youtube.com/embed/pQD5jqtRjFI?si=1LG9R0l3BH4gmKMR`}
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -36,7 +36,17 @@ const VideoSection = () => {
                 title="What is TurnAbroad"
                 loading="lazy"
                 className="w-full lg:w-[900px]  h-64 md:h-96 lg:h-[508px] mx-auto  rounded-3xl overflow-hidden"
-              ></iframe>
+              ></iframe> */}
+              <video
+                autoPlay
+                loop
+                muted
+                preload="auto"
+                className="w-full lg:w-[900px] h-64 md:h-96 lg:h-[508px] mx-auto rounded-3xl overflow-hidden border-2 border-primary"
+              >
+                <source src="/images/turnabroad.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
           </div>
           <div className="text-center mt-10">

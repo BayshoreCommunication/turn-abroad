@@ -1,6 +1,7 @@
-"use client"
-import FreeConsultation from "@src/components/HomePage/FreeConsultation/FreeConsultation";
+"use client";
+// import FreeConsultation from "@src/components/HomePage/FreeConsultation/FreeConsultation";
 import VideoSection from "@src/components/HomePage/VideoSection/VideoSection";
+import Game from "@src/components/HomePage/YesNoGame/Game";
 import About from "@src/components/HomePage/about/About";
 import Hero from "@src/components/HomePage/hero/Hero";
 import Passport from "@src/components/HomePage/passport/Passport";
@@ -13,15 +14,16 @@ import React from "react";
 const HomePage = () => {
   return (
     <main className="overflow-hidden">
-     <Hero/>
-     <About/>
-     <Passport/>
-     <StudentsVisa/>
-     <EmploymentVisa/>
-     <VideoSection/>
-     <FreeConsultation/>
-     <Registration/>
-     <Testimonials/>
+      <Hero />
+      <About />
+      <Passport />
+      <StudentsVisa />
+      <EmploymentVisa />
+      <VideoSection />
+      {/* <FreeConsultation /> */}
+      <Game />
+      <Registration />
+      <Testimonials />
     </main>
   );
 };

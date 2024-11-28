@@ -46,10 +46,24 @@ ul.menu > li > .menu-link.active {
   border: 1px solid #2d8fcc;
   padding: 10px 24px;
 }
+.btn-secondary {
+  font-size: 16px;
+  line-height: 130%;
+  color: #2d8fcc;
+  background-color: white;
+  border: 1px solid #2d8fcc;
+  padding: 10px 24px;
+  transition-duration: 500ms;
+}
+.btn-secondary:hover {
+  color: #35506c;
+  background: transparent;
+  border: 1px solid #35506c;
+}
 .heroBackground {
   background: url("../../public/images/heroBG.jpg") no-repeat;
-  background-size: cover; /* Cover the entire container */
-  background-position: center; /* Center the background image */
+  background-size: cover;
+  background-position: center;
   z-index: -1;
 }
 .tabs .tab {
