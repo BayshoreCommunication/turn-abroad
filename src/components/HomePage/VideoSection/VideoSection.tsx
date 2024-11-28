@@ -42,7 +42,7 @@ const VideoSection = () => {
                 loop
                 muted
                 preload="auto"
-                className="w-full lg:w-[900px] h-64 md:h-96 lg:h-[508px] mx-auto rounded-3xl overflow-hidden border-2 border-primary"
+                className="w-full lg:w-[900px] h-64 md:h-96 lg:h-[508px] mx-auto rounded-2xl overflow-hidden border-2 border-primary"
               >
                 <source src="/images/turnabroad.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
