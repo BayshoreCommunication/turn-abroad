@@ -36,7 +36,7 @@ const YesNoGame: React.FC = () => {
             <div className="flex justify-center items-center min-h-[50vh]">
               <div className="max-w-5xl p-10 md:p-14 border lg:py-20 rounded-2xl w-full">
                 <h3 className="mb-4 lg:mb-6 text-gray-900 text-xl md:text-3xl lg:text-4xl font-bold text-center md:mb-6 max-w-2xl mx-auto">
-                  Which category best describes your current focus?
+                  Why do you want to go abroad?
                 </h3>
 
                 <div className="flex gap-4 items-center justify-center">
@@ -52,7 +52,7 @@ const YesNoGame: React.FC = () => {
                       htmlFor="student"
                       className="ms-2 text-lg md:text-g font-medium text-gray-900 cursor-pointer"
                     >
-                      Student
+                      Study
                     </label>
                   </div>
                   <div className="flex items-center px-3 py-2 border rounded-lg min-w-32 justify-center">
@@ -97,7 +97,7 @@ const YesNoGame: React.FC = () => {
                         : ""
                     }`}
                   >
-                    Next
+                    Submit
                   </button>
                 </div>
               </div>
