@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import CompleteSchool from "./student/CompleteSchool";
 import CompleteSchoolWork from "./work/CompleteSchoolWork";
 import Investment from "./investment/Investment";
+import Thanks from "./Thanks";
 
 const YesNoGame: React.FC = () => {
   const [stepCount, setStepCount] = useState<string>("");
@@ -22,11 +23,11 @@ const YesNoGame: React.FC = () => {
       {nextStep ? (
         // Conditionally render components based on the selected category
         stepCount === "student" ? (
-          <CompleteSchool setNextStep={setNextStep} />
+          <Thanks />
         ) : stepCount === "work" ? (
-          <CompleteSchoolWork />
+          <Thanks />
         ) : stepCount === "investment" ? (
-          <Investment setNextStep={setNextStep} />
+          <Thanks />
         ) : (
           ""
         )
