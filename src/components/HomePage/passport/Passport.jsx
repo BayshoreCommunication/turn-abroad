@@ -56,7 +56,7 @@ const Passport = () => {
         <div className="container">
           <div className="text-center">
             <h1 className="text-3xl md:text-4xl xl:text-[40px] font-extrabold text-center mb-4 md:mb-8 ">
-              Get a US <span className="text-[#2D8FCC]">Passport</span> !
+              Get a US <span className="text-[#2D8FCC]">Passport</span>!
             </h1>
             <Tabs>
               <TabList

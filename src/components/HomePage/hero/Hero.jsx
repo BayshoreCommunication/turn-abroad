@@ -28,10 +28,10 @@ const Hero = () => {
 
   const peopleArray = [
     { id: 1, title: "Immigration Lawyers", count: 100, delay: 100 },
-    { id: 2, title: "Business Consultants", count: 100, delay: 200 },
+    { id: 2, title: "Business Consultants", count: 50, delay: 200 },
     { id: 3, title: "Partner schools", count: 500, delay: 400 },
-    { id: 4, title: "Employers", count: 100, delay: 800 },
-    { id: 5, title: "Students Helped", count: 1500, delay: 1600 },
+    { id: 4, title: "Employers", count: 48, delay: 800 },
+    { id: 5, title: "Students Helped", count: 1480, delay: 1600 },
   ];
   return (
     <div className="bg-[#F6F6F6] py-10 lg:py-14 xl:py-16">

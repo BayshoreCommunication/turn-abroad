@@ -44,7 +44,7 @@ const Footer = () => {
               Links
             </h6>
             <Link href="/contact" className="link link-hover">
-              Contact
+              Contact Us
             </Link>
             <Link href="/terms-conditions" className="link link-hover">
               Terms and Conditions

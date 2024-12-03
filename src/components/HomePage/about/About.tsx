@@ -24,16 +24,20 @@ const About = () => {
                 <h1 className="text-2xl font-extrabold mb-4 text-[#434242]">
                   Investment Visas
                 </h1>
-                <p className="mb-3 font-semibold text-xl text-justify">
-                Bringing international business opportunities & strategic 
-                investment solutions, we specialize in empowering you to explore 
-                uncharted foreign markets. Our unwavering dedication, expertise, 
-                and personalized strategies will ensure that you are able to 
-                seize global opportunities effectively and make smart investments. 
-                At TurnAbroad, we will be there every  step of the way to 
-                help you navigate the complex world of foreign investment.
+                <p className="mb-3 font-semibold text-xl text-start lg:text-justify">
+                  Bringing international business opportunities & strategic
+                  investment solutions, we specialize in empowering you to
+                  explore uncharted foreign markets. Our unwavering dedication,
+                  expertise, and personalized strategies will ensure that you
+                  are able to seize global opportunities effectively and make
+                  smart investments. At TurnAbroad, we will be there every step
+                  of the way to help you navigate the complex world of foreign
+                  investment.
                 </p>
-                <Link href={"/invest-abroad"} className="btn btn-primary mt-6">
+                <Link
+                  href={"/invest-abroad"}
+                  className="btn btn-primary mt-2 md:mt-6"
+                >
                   Learn More
                 </Link>
               </div>
