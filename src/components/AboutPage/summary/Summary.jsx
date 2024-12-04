@@ -49,7 +49,7 @@ const Summary = () => {
               <div className="card p-[30px] group hover:bg-white duration-1000 items-center text-center gap-4">
                 <FaUsers className="text-white text-9xl group-hover:text-primary duration-700" />
                 <h2 className="text-4xl md:text-5xl xl:text-[56px] font-bold text-white group-hover:text-primary duration-700 ">
-                  {countStart && <CountUp start={0} end={48} duration={10} />}+
+                  {countStart && <CountUp start={0} end={50} duration={10} />}+
                 </h2>
                 <h5 className="text-xl md:text-2xl text-white group-hover:text-primary duration-700">
                   Employers
