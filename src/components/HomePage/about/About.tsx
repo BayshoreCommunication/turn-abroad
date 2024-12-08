@@ -24,7 +24,7 @@ const About = () => {
                 <h1 className="text-2xl font-extrabold mb-4 text-[#434242]">
                   Investment Visas
                 </h1>
-                <p className="mb-3 font-semibold text-xl text-start lg:text-justify">
+                <p className="mb-3 font-medium text-lg text-start ">
                   Bringing international business opportunities & strategic
                   investment solutions, we specialize in empowering you to
                   explore uncharted foreign markets. Our unwavering dedication,
@@ -36,7 +36,7 @@ const About = () => {
                 </p>
                 <Link
                   href={"/invest-abroad"}
-                  className="btn btn-primary mt-2 md:mt-6"
+                  className="btn btn-primary  lg:!text-xl  mt-2 md:mt-6 !leading-[120%] py-5"
                 >
                   Learn More
                 </Link>

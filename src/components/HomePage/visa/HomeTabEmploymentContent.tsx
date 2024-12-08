@@ -8,7 +8,7 @@ const HomeTabEmploymentContent = () => {
     <div className="hero-content flex-col-reverse lg:flex-row gap-x-6 gap-y-8 p-0  lg:gap-12 xl:gap-16 items-center justify-items-center">
       <Motion effect="fade-right" duration="1500">
         <div className="w-full lg:max-w-lg xl:max-w-xl">
-          <p className="mb-3 font-semibold text-xl text-justify text-[#434242]">
+          <p className="mb-3 font-medium text-lg text-start text-[#434242]">
             Aiming to transform borders from being barriers in growth to
             gateways to success, we specialize in guiding individuals towards
             fulfilling international careers. With expertise in various career
@@ -17,7 +17,10 @@ const HomeTabEmploymentContent = () => {
             landing your dream job. Explore, experience, and excel in your
             global career ambitions with TurnAbroad.
           </p>
-          <Link href={"#"} className="btn btn-primary mt-6">
+          <Link
+            href={"#"}
+            className="btn btn-primary  lg:!text-xl  mt-2 md:mt-6 !leading-[120%] py-5"
+          >
             Learn More
           </Link>
         </div>

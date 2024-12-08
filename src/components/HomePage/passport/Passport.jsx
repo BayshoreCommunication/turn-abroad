@@ -88,11 +88,11 @@ const Passport = () => {
                     name="email"
                     ref={emailRef}
                     placeholder="Enter your email"
-                    className="input w-full max-w-5xl text-center my-4 md:my-10 focus:outline-none  bg-white h-12 lg:h-16"
+                    className="input w-full max-w-5xl text-center my-4 md:my-10 focus:outline-none  bg-white h-12 lg:h-16 placeholder:text-xl"
                   />
                   <button
                     type="submit"
-                    className="btn btn-primary  block mx-auto "
+                    className="btn btn-primary !text-xl !leading-[120%]  block mx-auto mt-3"
                   >
                     Submit
                   </button>
@@ -109,11 +109,11 @@ const Passport = () => {
                     name="email"
                     ref={emailRef}
                     placeholder="Enter your email"
-                    className="input w-full max-w-5xl text-center my-4 md:my-10 focus:outline-none  bg-white h-12 lg:h-16"
+                    className="input w-full max-w-5xl text-center my-4 md:my-10 focus:outline-none  bg-white h-12 lg:h-16 placeholder:text-xl"
                   />
                   <button
                     type="submit"
-                    className="btn btn-primary  block mx-auto "
+                    className="btn btn-primary !text-xl !leading-[120%]  mt-3 block mx-auto "
                   >
                     Submit
                   </button>

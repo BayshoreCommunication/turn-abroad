@@ -20,10 +20,10 @@ const Game = () => {
                 it takes to pass and prove you're prepared for the journey
                 ahead.`}
               </p>
-              <div className="flex gap-4 justify-center">
+              <div className="flex gap-4 justify-center ">
                 <Link
                   href={"/make-your-decision"}
-                  className="btn btn-primary mt-6"
+                  className="btn btn-primary mt-10 lg:mt-12"
                 >
                   Start Game
                 </Link>

@@ -46,7 +46,7 @@ const WhyTurnAbroad = () => {
                 className="rounded-2xl overflow-hidden max-w-xl w-full h-auto mb-4 md:mb-6 hover:scale-105 hover:shadow-lg duration-500"
               ></Image>
               <h2 className="text-2xl md:text-3xl font-semibold text-center text-black">
-                Delivering best customer service
+                Delivering the best customer service
               </h2>
             </div>
             <div className="card p-4 md:p-6 lg:p-8">
@@ -76,7 +76,7 @@ const WhyTurnAbroad = () => {
                 className="rounded-2xl overflow-hidden max-w-xl w-full h-auto mb-4 md:mb-6 hover:scale-105 hover:shadow-lg duration-500"
               ></Image>
               <h2 className="text-2xl md:text-3xl font-semibold text-center text-black">
-                Making life abroad fun
+                Making life Abroad fun
               </h2>
             </div>
           </div>

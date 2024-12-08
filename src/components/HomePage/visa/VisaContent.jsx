@@ -28,12 +28,12 @@ const HomeTabStudentContent = ({
     <div className="hero-content flex-col-reverse  lg:flex-row gap-x-6 gap-y-8 p-0 lg:gap-12 xl:gap-16 items-center justify-items-center ">
       <Motion effect="fade-right" duration="1500">
         <div className="w-full lg:max-w-lg xl:max-w-xl">
-          <p className="mb-3 font-semibold text-xl text-start lg:text-justify text-[#434242]">
+          <p className="mb-3 font-medium text-lg text-start text-[#434242]">
             {description ? description : ""}
           </p>
           <Link
             href={href ? href : ""}
-            className="btn btn-primary mt-2 lg:mt-6"
+            className="btn btn-primary  lg:!text-xl  md:mt-6 !leading-[120%] mt-2 lg:mt-6"
           >
             {linkTitle ? linkTitle : "Learn More"}
           </Link>

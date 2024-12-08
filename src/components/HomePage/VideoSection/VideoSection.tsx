@@ -48,7 +48,7 @@ const VideoSection = () => {
               </video>
             </div>
           </div>
-          <div className="text-center mt-10">
+          <div className="text-center mt-10 lg:mt-16">
             <Link href={"/contact"} className="btn btn-primary">
               Contact Us
             </Link>

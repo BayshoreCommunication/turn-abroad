@@ -58,8 +58,8 @@ const StudentConsultationFrom = () => {
   };
   return (
     <div className="w-full xl:max-w-lg p-8 h-fit bg-[#F3F9FF] ">
-      <h2 className="text-3xl  mb-4 md:mb-8 font-bold text-secondary leading-normal">
-        Book your free consultation with Certified Counselors
+      <h2 className="text-2xl text-center  mb-4 md:mb-8 font-bold text-secondary leading-normal">
+        Book Your Free Consultation with Certifies Counselors
       </h2>
       <form
         action=""
