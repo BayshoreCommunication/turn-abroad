@@ -10,7 +10,7 @@ const FAQ = () => {
         <div className="section-title mb-[30px] ">
           <Motion effect="fade-up" duration="2000">
             <h1 className="text-3xl md:text-4xl xl:text-5xl font-bold text-black text-center">
-              Frequently asked questions
+              Frequently Asked Questions
             </h1>
           </Motion>
         </div>

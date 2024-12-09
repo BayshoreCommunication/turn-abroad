@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import canadaFlag from "/public/images/studentPage/canadaFlag.png";
+import canadaFlag from "/public/images/studentPage/canadaFlagIcon.png";
 import { FaHome, FaUniversity } from "react-icons/fa";
 import { FaBook, FaStar } from "react-icons/fa6";
 import { MdOutlineWorkHistory } from "react-icons/md";
@@ -13,7 +13,12 @@ const Canada = () => {
       <div className="">
         <Motion effect="fade-up" easing="ease-in-out" duration="2000">
           <div className="flex items-center gap-4 mb-4 md:mb-8">
-            <Image src={canadaFlag} alt="usa flag" width={90} />
+            <Image
+              src={canadaFlag}
+              alt="usa flag"
+              width={80}
+              className="drop-shadow-xl"
+            />
             <h1 className="text-3xl md:text-[40px] font-extrabold leading-normal">
               Education in Canada
             </h1>

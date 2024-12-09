@@ -359,7 +359,7 @@ const InvestAbroadSection: React.FC = () => {
               </motion.li>
             ))}
           </ul>
-          <div className="w-full col-span-3 px-6 text-gray-500 rounded-lg text-medium">
+          <div className="w-full col-span-3 px-6 py-6 text-gray-500 rounded-lg text-medium">
             {tabData
               ?.filter((el, index) => index === selectTab)
               .map((item, index) => (

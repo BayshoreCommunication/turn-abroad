@@ -56,7 +56,7 @@ const Passport = () => {
         <div className="container">
           <div className="text-center">
             <h1 className="text-3xl md:text-4xl xl:text-[40px] font-extrabold text-center mb-4 md:mb-8 ">
-              Get a US <span className="text-[#2D8FCC]">Passport</span>!
+              Get a US <span className="text-[#2D8FCC]">Passport</span>
             </h1>
             <Tabs>
               <TabList
@@ -87,7 +87,7 @@ const Passport = () => {
                     type="text"
                     name="email"
                     ref={emailRef}
-                    placeholder="Enter your email"
+                    placeholder="Enter Your Email"
                     className="input w-full max-w-5xl text-center my-4 md:my-10 focus:outline-none  bg-white h-12 lg:h-16 placeholder:text-xl"
                   />
                   <button
@@ -108,7 +108,7 @@ const Passport = () => {
                     type="text"
                     name="email"
                     ref={emailRef}
-                    placeholder="Enter your email"
+                    placeholder="Enter Your Email"
                     className="input w-full max-w-5xl text-center my-4 md:my-10 focus:outline-none  bg-white h-12 lg:h-16 placeholder:text-xl"
                   />
                   <button

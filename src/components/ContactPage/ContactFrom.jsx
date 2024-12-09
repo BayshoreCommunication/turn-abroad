@@ -54,10 +54,13 @@ const ContactFrom = () => {
       .then(
         function (response) {
           console.log("SUCCESS!", response.status, response.text);
-          return toast.success("Thanks, message sent successfully", {
-            toastId: "workerConsultationFrom",
-            position: "top-right",
-          });
+          return toast.success(
+            "Thanks For Your Submission. Our Team Will Reach Out To You Shortly",
+            {
+              toastId: "workerConsultationFrom",
+              position: "top-right",
+            }
+          );
         },
         function (error) {
           // toast.error("OOPs something went wrong... Try again later");
@@ -78,6 +81,7 @@ const ContactFrom = () => {
             <input
               type="text"
               name="name"
+              autoComplete="off"
               ref={nameRef}
               placeholder="Your Name"
               className="input mb-3  text-black focus:outline-none  border-[#a9a9a9] "
@@ -86,8 +90,9 @@ const ContactFrom = () => {
             <input
               type="email"
               name="email"
+              autoComplete="off"
               ref={emailRef}
-              placeholder="Your email"
+              placeholder="Your Email"
               className="input mb-3  text-black focus:outline-none  border-[#a9a9a9] "
               required
             />
@@ -95,6 +100,7 @@ const ContactFrom = () => {
             <input
               type="text"
               name="subject"
+              autoComplete="off"
               ref={subjectRef}
               placeholder="Subject"
               className="input mb-3  text-black focus:outline-none  border-[#a9a9a9] "
@@ -104,8 +110,9 @@ const ContactFrom = () => {
             <textarea
               name="message"
               ref={messageRef}
+              autoComplete="off"
               placeholder="Message"
-              className="textarea h-40 rounded-lg text-black focus:outline-none  border-[#a9a9a9] "
+              className="textarea placeholder:text-lg h-40 rounded-lg text-black focus:outline-none  border-[#a9a9a9] "
               required
             />
           </div>

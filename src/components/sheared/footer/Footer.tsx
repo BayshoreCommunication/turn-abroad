@@ -18,7 +18,7 @@ const Footer = () => {
               name="email"
               id="email"
               className="input w-full max-w-[400px] lg:max-w-[300px] focus:outline-none bg-[#EAEAEA] border-none mb-4"
-              placeholder="Enter your email"
+              placeholder="Enter Your Email"
             />
             <button className="btn btn-primary">Free Consultation</button>
           </aside>
