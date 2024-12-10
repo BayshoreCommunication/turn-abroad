@@ -5,20 +5,30 @@ import StudentConsultationFrom from "./StudentConsultationFrom";
 import Motion from "../motion/Motion";
 import Canada from "../StudentsPage/Countries/Canada/Canada";
 import LivingCostChart from "../StudentsPage/Countries/Canada/LivingCostChart";
+import { motion } from "framer-motion";
 
 const StudyCanada = () => {
   return (
     <div className="flex flex-col lg:flex-row gap-10">
       <div className="w-full lg:max-w-[65%] ">
-        <div className="">
-          <figure className="overflow-hidden">
-            <Image src={CanadaImage} alt="USA Image" className="w-full  " />
-          </figure>
-          <h2 className="text-2xl font-bold text-secondary mt-6 mb-4">
-            Our goal is to make the process of studying abroad smooth and
-            rewarding.
-          </h2>
-          {/* <p className="text-justify">
+        <motion.div
+          className="box"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{
+            duration: 2,
+            ease: "easeInOut",
+          }}
+        >
+          <div className="">
+            <figure className="overflow-hidden">
+              <Image src={CanadaImage} alt="USA Image" className="w-full  " />
+            </figure>
+            <h2 className="text-2xl font-bold text-secondary mt-6 mb-4">
+              Our goal is to make the process of studying abroad smooth and
+              rewarding.
+            </h2>
+            {/* <p className="text-justify">
             Every individual has their own unique path and we provide support
             and mentorship based on their specific interests or concerns. Are
             you thinking of studying abroad? Get ready to embark on a
@@ -26,8 +36,9 @@ const StudyCanada = () => {
             from TurnAbroad by your side.
           </p> */}
 
-          {/* <Link href={"#"} className="btn btn-primary">Apply Now <FaArrowRight/></Link> */}
-        </div>
+            {/* <Link href={"#"} className="btn btn-primary">Apply Now <FaArrowRight/></Link> */}
+          </div>
+        </motion.div>
         <Canada />
       </div>
       <div className="w-full lg:max-w-[35%]  flex flex-col-reverse lg:flex-col">

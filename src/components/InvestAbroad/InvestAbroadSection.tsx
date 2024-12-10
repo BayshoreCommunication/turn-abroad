@@ -363,9 +363,17 @@ const InvestAbroadSection: React.FC = () => {
             {tabData
               ?.filter((el, index) => index === selectTab)
               .map((item, index) => (
-                <div key={index}>
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{
+                    duration: 2,
+                    ease: "easeIn",
+                  }}
+                >
                   <div className="text-xl">{parse(item?.decs)}</div>
-                </div>
+                </motion.div>
               ))}
           </div>
         </div>

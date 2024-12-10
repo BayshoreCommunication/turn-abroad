@@ -7,31 +7,43 @@ import WorkerConsultationFrom from "./WorkerConsultationFrom";
 import Motion from "../motion/Motion";
 import WorkAbroadChart from "./WorkAbroadChart";
 import EmploymentStates from "./EmploymentStates ";
+import { motion } from "framer-motion";
 
 const IndependentWork = () => {
   return (
     <div className="flex flex-col lg:flex-row gap-10">
       <div className="w-full lg:max-w-[65%] ">
-        <div className="">
-          <figure className="overflow-hidden">
-            <Image src={independent} alt="USA Image" className="w-full  " />
-          </figure>
-          <h2 className="text-2xl font-bold text-secondary mt-6 mb-4">
-            Our goal is to make the process of working abroad attainable from
-            the comfort of your home.
-          </h2>
-          <p className="mb-4 text-justify">
-            Aiming to transform borders from being barriers in growth to
-            gateways to success, we specialize in guiding individuals towards
-            fulfilling international careers. With expertise in various career
-            fields, internal resources, and unwavering commitment, we empower
-            you to navigate the complexities of international employment and
-            landing your dream job. Explore, experience, and excel in your
-            global career ambitions with TurnAbroad.
-          </p>
+        <motion.div
+          className="box"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{
+            duration: 2,
+            ease: "easeInOut",
+          }}
+        >
+          <div className="">
+            <figure className="overflow-hidden">
+              <Image src={independent} alt="USA Image" className="w-full  " />
+            </figure>
+            <h2 className="text-2xl font-bold text-secondary mt-6 mb-4">
+              Our goal is to make the process of working abroad attainable from
+              the comfort of your home.
+            </h2>
+            <p className="mb-4 text-justify">
+              Aiming to transform borders from being barriers in growth to
+              gateways to success, we specialize in guiding individuals towards
+              fulfilling international careers. With expertise in various career
+              fields, internal resources, and unwavering commitment, we empower
+              you to navigate the complexities of international employment and
+              landing your dream job. Explore, experience, and excel in your
+              global career ambitions with TurnAbroad.
+            </p>
 
-          {/* <Link href={"#"} className="btn btn-primary">Apply Now <FaArrowRight/></Link> */}
-        </div>
+            {/* <Link href={"#"} className="btn btn-primary">Apply Now <FaArrowRight/></Link> */}
+          </div>
+        </motion.div>
+
         <EmploymentStates />
       </div>
       <div className="w-full lg:max-w-[35%]  flex flex-col-reverse lg:flex-col">

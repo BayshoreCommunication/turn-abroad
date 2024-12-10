@@ -7,6 +7,7 @@ import StudyUSA from "./StudyUSA";
 import StudyCanada from "./StudyCanada";
 import Process from "../StudentsPage/Process/Process";
 import { useSearchParams } from "next/navigation";
+
 const StudyAbroadSection = () => {
   const searchParams = useSearchParams();
 

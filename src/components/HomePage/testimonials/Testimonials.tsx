@@ -6,6 +6,7 @@ import Loading from "@src/app/loading";
 import InvestorReviews from "./InvestorReviews";
 import StudentsReviews from "./StudentsReviews";
 import ProfessionalsReviews from "./ProfessionalsReviews";
+import { motion } from "framer-motion";
 
 const Testimonials = () => {
   return (
@@ -44,13 +45,43 @@ const Testimonials = () => {
                 </Tab>
               </TabList>
               <TabPanel>
-                <InvestorReviews />
+                <motion.div
+                  className="box"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{
+                    duration: 1,
+                    ease: "easeInOut",
+                  }}
+                >
+                  <InvestorReviews />
+                </motion.div>
               </TabPanel>
               <TabPanel>
-                <StudentsReviews />
+                <motion.div
+                  className="box"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{
+                    duration: 1,
+                    ease: "easeInOut",
+                  }}
+                >
+                  <StudentsReviews />
+                </motion.div>
               </TabPanel>
               <TabPanel>
-                <ProfessionalsReviews />
+                <motion.div
+                  className="box"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{
+                    duration: 1,
+                    ease: "easeInOut",
+                  }}
+                >
+                  <ProfessionalsReviews />
+                </motion.div>
               </TabPanel>
             </Tabs>
           </div>
