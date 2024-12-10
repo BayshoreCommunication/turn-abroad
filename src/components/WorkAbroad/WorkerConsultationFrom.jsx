@@ -2,7 +2,7 @@
 import Link from "next/link";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { ToastContainer, toast } from "react-toastify";
+import { Slide, ToastContainer, toast } from "react-toastify";
 const WorkerConsultationFrom = () => {
   const nameRef = useRef();
   const emailRef = useRef();
@@ -33,18 +33,32 @@ const WorkerConsultationFrom = () => {
     }
     emailjs
       .send(
-        "service_5yimeas",
-        "template_j4y4dmv",
+        "service_f7361to",
+        "template_65cwawu",
         templateParams,
-        "Y-2_mv-FHC710OGp_"
+        "B3NmXWHKDF1AhfJI6"
       )
       .then(
         function (response) {
           console.log("SUCCESS!", response.status, response.text);
-          return toast.success("We recieved your information.", {
-            toastId: "workerConsultationFrom",
-            position: "top-right",
-          });
+          return toast.success(
+            <div className=" w-full max-w-md text-center">
+              <p className="text-lg text-start font-semibold text-green-700 mb-2">
+                Thanks For Your Submission.
+              </p>
+              <p className="text-base text-start font-normal text-gray-700 ">
+                Our Team Will Reach Out To You Shortly
+              </p>
+            </div>,
+            {
+              toastId: "workerConsultationForm",
+              position: "top-center",
+              transition: Slide,
+              style: {
+                width: "400px", // Adjust the width as needed
+              },
+            }
+          );
         },
         function (error) {
           alert("OOPs something went wrong... Try again later");
@@ -71,6 +85,7 @@ const WorkerConsultationFrom = () => {
           type="text"
           name="name"
           placeholder="Name"
+          autoComplete="off"
           ref={nameRef}
           required
           className="input border-[#B7BBBF] w-full focus:outline-none bg-transparent"
@@ -79,6 +94,7 @@ const WorkerConsultationFrom = () => {
           type="email"
           name="email"
           ref={emailRef}
+          autoComplete="off"
           placeholder="Email"
           required
           className="input border-[#B7BBBF] w-full focus:outline-none bg-transparent"
@@ -87,6 +103,7 @@ const WorkerConsultationFrom = () => {
           ref={mobileNoRef}
           name="mobileNo"
           type="text"
+          autoComplete="off"
           placeholder="Mobile Number"
           className="input border-[#B7BBBF] w-full focus:outline-none bg-transparent"
         />

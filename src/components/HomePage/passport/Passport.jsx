@@ -3,7 +3,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import Motion from "../../motion/Motion";
 import emailjs from "@emailjs/browser";
-import { ToastContainer, toast } from "react-toastify";
+import { Slide, ToastContainer, toast } from "react-toastify";
 
 const Passport = () => {
   const emailRef = useRef();
@@ -29,18 +29,32 @@ const Passport = () => {
     }
     emailjs
       .send(
-        "service_5yimeas",
-        "template_b1at7a5",
+        "service_f7361to",
+        "template_mniif1d",
         templateParams,
-        "Y-2_mv-FHC710OGp_"
+        "B3NmXWHKDF1AhfJI6"
       )
       .then(
         function (response) {
           console.log("SUCCESS!", response.status, response.text);
-          return toast.success("We have Recieved your Email", {
-            toastId: "workerConsultationFrom",
-            position: "top-right",
-          });
+          return toast.success(
+            <div className=" w-full max-w-md text-center">
+              <p className="text-lg text-start font-semibold text-green-700 mb-2">
+                Thanks For Your Submission.
+              </p>
+              <p className="text-base text-start font-normal text-gray-700 ">
+                Our Team Will Reach Out To You Shortly
+              </p>
+            </div>,
+            {
+              toastId: "workerConsultationForm",
+              position: "top-center",
+              transition: Slide,
+              style: {
+                width: "400px", // Adjust the width as needed
+              },
+            }
+          );
         },
         function (error) {
           alert("OOPs something went wrong... Try again later");

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import usaFlag from "/public/images/studentPage/usaFlagIcon.png";
+import usaFlag from "/public/images/studentPage/usaFlag.png";
 import { FaHome, FaUniversity } from "react-icons/fa";
 import { FaBook, FaStar } from "react-icons/fa6";
 import { MdOutlineWorkHistory } from "react-icons/md";
@@ -8,7 +8,7 @@ import Motion from "@src/components/motion/Motion";
 
 const USA = () => {
   return (
-    <section className="pt-10 lg:pt-14 xl:pt-16 overflow-hidden">
+    <section className="pt-10 lg:pt-14 xl:pt-16 ">
       <Motion effect="fade-up" easing="ease-in-out" duration="2000">
         <div className="flex items-center gap-4 mb-4 md:mb-8">
           <Image
