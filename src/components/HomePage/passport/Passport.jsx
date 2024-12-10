@@ -4,6 +4,7 @@ import "react-tabs/style/react-tabs.css";
 import Motion from "../../motion/Motion";
 import emailjs from "@emailjs/browser";
 import { Slide, ToastContainer, toast } from "react-toastify";
+import Swal from "sweetalert2";
 
 const Passport = () => {
   const emailRef = useRef();
@@ -15,12 +16,6 @@ const Passport = () => {
       purpose: purposeRef?.current?.value,
       email: emailRef?.current?.value,
     };
-    // if (!purposeRef?.current?.value) {
-    //   return toast.error("Please Enter Purpose", {
-    //     toastId: "workerConsultationFromNameError",
-    //     position: "top-right",
-    //   });
-    // }
     if (!emailRef?.current?.value) {
       return toast.error("Please Enter Your Email", {
         toastId: "workerConsultationFromNameEmailError",
@@ -37,24 +32,30 @@ const Passport = () => {
       .then(
         function (response) {
           console.log("SUCCESS!", response.status, response.text);
-          return toast.success(
-            <div className=" w-full max-w-md text-center">
-              <p className="text-lg text-start font-semibold text-green-700 mb-2">
-                Thanks For Your Submission.
-              </p>
-              <p className="text-base text-start font-normal text-gray-700 ">
-                Our Team Will Reach Out To You Shortly
-              </p>
-            </div>,
-            {
-              toastId: "workerConsultationForm",
-              position: "top-center",
-              transition: Slide,
-              style: {
-                width: "400px", // Adjust the width as needed
-              },
-            }
-          );
+          // return toast.success(
+          //   <div className=" w-full max-w-md text-center">
+          //     <p className="text-lg text-start font-semibold text-green-700 mb-2">
+          //       Thanks For Your Submission.
+          //     </p>
+          //     <p className="text-base text-start font-normal text-gray-700 ">
+          //       Our Team Will Reach Out To You Shortly
+          //     </p>
+          //   </div>,
+          //   {
+          //     toastId: "workerConsultationForm",
+          //     position: "top-center",
+          //     transition: Slide,
+          //     style: {
+          //       width: "400px", // Adjust the width as needed
+          //     },
+          //   }
+          // );
+          return Swal.fire({
+            icon: "success",
+            title: "Thanks For Your Submission!",
+            text: "Our Team Will Reach Out To You Shortly.",
+            confirmButtonColor: "#2D8FCC",
+          });
         },
         function (error) {
           alert("OOPs something went wrong... Try again later");

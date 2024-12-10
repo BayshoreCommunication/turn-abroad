@@ -5,6 +5,7 @@ import Motion from "../motion/Motion";
 import emailjs from "@emailjs/browser";
 import { Slide, ToastContainer, toast } from "react-toastify";
 import { Button } from "@material-tailwind/react";
+import Swal from "sweetalert2";
 
 const ContactFrom = () => {
   const nameRef = useRef();
@@ -62,24 +63,30 @@ const ContactFrom = () => {
       .then(
         function (response) {
           console.log("SUCCESS!", response.status, response.text);
-          return toast.success(
-            <div className=" w-full max-w-md text-center">
-              <p className="text-lg text-start font-semibold text-green-700 mb-2">
-                Thanks For Your Submission.
-              </p>
-              <p className="text-base text-start font-normal text-gray-700 ">
-                Our Team Will Reach Out To You Shortly
-              </p>
-            </div>,
-            {
-              toastId: "workerConsultationForm",
-              position: "top-center",
-              transition: Slide,
-              style: {
-                width: "400px", // Adjust the width as needed
-              },
-            }
-          );
+          // return toast.success(
+          //   <div className=" w-full max-w-md text-center">
+          //     <p className="text-lg text-start font-semibold text-green-700 mb-2">
+          //       Thanks For Your Submission.
+          //     </p>
+          //     <p className="text-base text-start font-normal text-gray-700 ">
+          //       Our Team Will Reach Out To You Shortly
+          //     </p>
+          //   </div>,
+          //   {
+          //     toastId: "workerConsultationForm",
+          //     position: "top-center",
+          //     transition: Slide,
+          //     style: {
+          //       width: "400px", // Adjust the width as needed
+          //     },
+          //   }
+          // );
+          return Swal.fire({
+            icon: "success",
+            title: "Thanks For Your Submission!",
+            text: "Our Team Will Reach Out To You Shortly.",
+            confirmButtonColor: "#2D8FCC",
+          });
         },
         function (error) {
           // toast.error("OOPs something went wrong... Try again later");
