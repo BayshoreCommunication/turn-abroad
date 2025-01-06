@@ -72,6 +72,12 @@ ul.menu > li > .menu-link.active {
   border-color: #fff;
   background: transparent;
 }
+.tabs .tab,
+.tabs .tab:focus,
+.tabs .tab:focus-visible {
+  outline: none !important;
+  border: 0 !important;
+}
 .tabs .tab.react-tabs__tab--selected {
   color: white;
   transition: 0.8s;

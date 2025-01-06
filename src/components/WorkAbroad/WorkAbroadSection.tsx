@@ -7,13 +7,14 @@ import IndependentWork from "./IndependentWork";
 import SkilledWork from "./SkilledWork";
 import Process from "../StudentsPage/Process/Process";
 import { useSearchParams } from "next/navigation";
+import { motion } from "framer-motion";
 
 const WorkAbroadSection = () => {
   const searchParams = useSearchParams();
 
   const query = searchParams.get("query");
-  // console.log(query)
   const [activeIndex, setActiveIndex] = useState(0);
+
   useEffect(() => {
     if (query) {
       if (query === "skilled") {
@@ -28,11 +29,18 @@ const WorkAbroadSection = () => {
     }
   }, [query]);
 
+  // Tab data for easy manipulation and future-proofing
+  const tabs = [
+    { label: "Skilled", component: <SkilledWork /> },
+    { label: "Unskilled", component: <UnskilledWork /> },
+    { label: "Independent", component: <IndependentWork /> },
+  ];
+
   return (
     <section className="py-10 lg:py-14 xl:py-16">
       <Process />
       <Motion effect="fade-up" duration="2000">
-        <div className="container ">
+        <div className="container">
           <Tabs className="pt-10 lg:pt-14 xl:pt-16" selectedIndex={activeIndex}>
             <div className="flex flex-wrap gap-4 items-center justify-between mb-4 lg:mb-8">
               <h1 className="text-center text-3xl md:text-[40px] font-extrabold leading-normal">
@@ -40,50 +48,40 @@ const WorkAbroadSection = () => {
               </h1>
               <TabList
                 role="tablist"
-                className="tabs  md:grid-cols-3 w-full md:w-fit rounded-[80px] p-0 bg-[#f3f3f3] overflow-hidden"
+                className="tabs md:grid-cols-3 w-full md:w-fit rounded-[80px] p-0 bg-[#f3f3f3] overflow-hidden relative"
               >
-                <Tab
-                  onClick={() => {
-                    setActiveIndex(0);
+                {/* Smooth motion indicator */}
+                <motion.div
+                  layoutId="activeTabIndicator"
+                  className="absolute bg-[#2D8FCC] h-full rounded-[80px]"
+                  style={{
+                    width: `${100 / tabs.length}%`,
+                    left: `${(activeIndex * 100) / tabs.length}%`,
                   }}
-                  role="tab"
-                  className="tab text-sm md:text-base lg:text-lg font-semibold focus:outline-none outline-none outline-0
-                   w-full"
-                >
-                  Skilled
-                </Tab>
-                <Tab
-                  onClick={() => {
-                    setActiveIndex(1);
+                  initial={false}
+                  animate={{
+                    left: `${(activeIndex * 100) / tabs.length}%`,
                   }}
-                  role="tab"
-                  className="tab text-sm md:text-base lg:text-lg font-semibold focus:outline-none outline-none outline-0
-                   w-full"
-                >
-                  Unskilled
-                </Tab>
-                <Tab
-                  onClick={() => {
-                    setActiveIndex(2);
-                  }}
-                  role="tab"
-                  className="tab text-sm md:text-base lg:text-lg font-semibold focus:outline-none outline-none outline-0
-                   w-full"
-                >
-                  Independent
-                </Tab>
+                  transition={{ type: "spring", stiffness: 200, damping: 30 }}
+                />
+                {/* Tab buttons */}
+                {tabs.map((tab, index) => (
+                  <Tab
+                    key={index}
+                    onClick={() => setActiveIndex(index)}
+                    role="tab"
+                    className="tab text-sm md:text-base lg:text-lg font-semibold w-full"
+                  >
+                    {tab.label}
+                  </Tab>
+                ))}
               </TabList>
             </div>
 
-            <TabPanel>
-              <SkilledWork />
-            </TabPanel>
-            <TabPanel>
-              <UnskilledWork />
-            </TabPanel>
-            <TabPanel>
-              <IndependentWork />
-            </TabPanel>
+            {/* Tab Panels */}
+            {tabs.map((tab, index) => (
+              <TabPanel key={index}>{tab.component}</TabPanel>
+            ))}
           </Tabs>
         </div>
       </Motion>

@@ -77,7 +77,7 @@ const EmploymentVisa = () => {
                     key={index}
                     role="tab"
                     onClick={() => setActiveIndex(index)}
-                    className={`tab text-base lg:text-xl font-semibold lg:font-extrabold p-2 px-4 lg:px-11 h-12 lg:h-14 focus:outline-none outline-none w-full relative z-10 ${
+                    className={`tab text-sm text-center lg:text-xl font-semibold lg:font-extrabold p-2 px-2 lg:px-11 h- lg:h-14  w-full  z-10 ${
                       activeIndex === index ? "text-white" : "text-[#434242]"
                     }`}
                   >
