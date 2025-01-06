@@ -28,9 +28,7 @@ const MaterialTabSection = ({ tabsData }) => {
             <div className="flex items-center gap-x-6 gap-y-2 md:flex-col md:justify-center 2xl:flex-row">
               <div
                 className={`py-2 sm:text-lg text-xs text-gray-750  ${
-                  activeTab === value
-                    ? "!text-white duration-1000 z-50"
-                    : ""
+                  activeTab === value ? "!text-white duration-1000 z-50" : ""
                 }`}
               >
                 {label}
@@ -58,4 +56,4 @@ const MaterialTabSection = ({ tabsData }) => {
     </Tabs>
   );
 };
- export default MaterialTabSection;
+export default MaterialTabSection;

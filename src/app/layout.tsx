@@ -12,7 +12,7 @@ const mulish = Mulish({ subsets: ["latin"] }); // Initialize Mulish font
 
 export const metadata: Metadata = {
   title: "TurnAbroad",
-  description: "Top Destinations to Study Abroad for Bangladeshi Students",
+  description: "Top Destinations to Study Abroad for Bangladeshi Students",
   metadataBase: new URL("https://turnabroad.vercel.app"),
   alternates: {
     canonical: "/",
