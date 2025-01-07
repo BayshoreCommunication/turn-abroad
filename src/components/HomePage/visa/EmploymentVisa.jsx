@@ -58,7 +58,7 @@ const EmploymentVisa = () => {
               {/* Tab List */}
               <TabList
                 role="tablist"
-                className="tabs grid grid-cols-2 md:grid-cols-3 w-full mx-auto bg-[#F2F7FE] rounded-[80px] p-0 mb-10 overflow-hidden relative"
+                className="tabs flex justify-evenly w-full items-center mx-auto bg-[#F2F7FE] rounded-[80px] p-0 mb-10 overflow-hidden relative"
               >
                 {/* Smooth Indicator */}
                 <motion.div
@@ -77,7 +77,7 @@ const EmploymentVisa = () => {
                     key={index}
                     role="tab"
                     onClick={() => setActiveIndex(index)}
-                    className={`tab text-sm text-center lg:text-xl font-semibold lg:font-extrabold p-2 px-2 lg:px-11 h- lg:h-14  w-full  z-10 ${
+                    className={`tab text-base w-full text-center md:text-lg lg:text-xl font-semibold lg:font-extrabold py-2 px-2  leading-[18px] lg:px-11 h-12 lg:h-14   z-10 ${
                       activeIndex === index ? "text-white" : "text-[#434242]"
                     }`}
                   >
