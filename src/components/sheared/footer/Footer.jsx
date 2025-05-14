@@ -105,6 +105,9 @@ const Footer = () => {
             <h6 className="footer-title text-xl font-bold text-[#241836] opacity-100 normal-case">
               Links
             </h6>
+            <Link href="/career" className="link link-hover">
+              Career
+            </Link>
             <Link href="/contact" className="link link-hover">
               Contact Us
             </Link>
